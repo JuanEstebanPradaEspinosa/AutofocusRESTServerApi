@@ -21,4 +21,9 @@
     <ProjectReference Include="..\AF.DL\AF.DL.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="DTO%27s\Input\" />
+    <Folder Include="DTO%27s\Output\" />
+  </ItemGroup>
+
 </Project>
