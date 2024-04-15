@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\HOGENT\\Projectwerk\\AutoFocuas_WebAPI_v3\\AutoFocus_V3\\AF.API\\AF.API.csproj": {}
+    "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.API\\AF.API.csproj": {}
   },
   "projects": {
-    "D:\\HOGENT\\Projectwerk\\AutoFocuas_WebAPI_v3\\AutoFocus_V3\\AF.API\\AF.API.csproj": {
+    "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.API\\AF.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HOGENT\\Projectwerk\\AutoFocuas_WebAPI_v3\\AutoFocus_V3\\AF.API\\AF.API.csproj",
+        "projectUniqueName": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.API\\AF.API.csproj",
         "projectName": "AF.API",
-        "projectPath": "D:\\HOGENT\\Projectwerk\\AutoFocuas_WebAPI_v3\\AutoFocus_V3\\AF.API\\AF.API.csproj",
-        "packagesPath": "C:\\Users\\Luca Mannens\\.nuget\\packages\\",
-        "outputPath": "D:\\HOGENT\\Projectwerk\\AutoFocuas_WebAPI_v3\\AutoFocus_V3\\AF.API\\obj\\",
+        "projectPath": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.API\\AF.API.csproj",
+        "packagesPath": "C:\\Users\\Juane\\.nuget\\packages\\",
+        "outputPath": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Luca Mannens\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Juane\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +28,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\HOGENT\\Projectwerk\\AutoFocuas_WebAPI_v3\\AutoFocus_V3\\AF.Application\\AF.Application.csproj": {
-                "projectPath": "D:\\HOGENT\\Projectwerk\\AutoFocuas_WebAPI_v3\\AutoFocus_V3\\AF.Application\\AF.Application.csproj"
+              "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.Application\\AF.Application.csproj": {
+                "projectPath": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.Application\\AF.Application.csproj"
               },
-              "D:\\HOGENT\\Projectwerk\\AutoFocuas_WebAPI_v3\\AutoFocus_V3\\AF.Infrastructure\\AF.Infrastructure.csproj": {
-                "projectPath": "D:\\HOGENT\\Projectwerk\\AutoFocuas_WebAPI_v3\\AutoFocus_V3\\AF.Infrastructure\\AF.Infrastructure.csproj"
+              "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.Infrastructure\\AF.Infrastructure.csproj": {
+                "projectPath": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.Infrastructure\\AF.Infrastructure.csproj"
               }
             }
           }
@@ -86,17 +86,17 @@
         }
       }
     },
-    "D:\\HOGENT\\Projectwerk\\AutoFocuas_WebAPI_v3\\AutoFocus_V3\\AF.Application\\AF.Application.csproj": {
+    "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.Application\\AF.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HOGENT\\Projectwerk\\AutoFocuas_WebAPI_v3\\AutoFocus_V3\\AF.Application\\AF.Application.csproj",
+        "projectUniqueName": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.Application\\AF.Application.csproj",
         "projectName": "AF.Application",
-        "projectPath": "D:\\HOGENT\\Projectwerk\\AutoFocuas_WebAPI_v3\\AutoFocus_V3\\AF.Application\\AF.Application.csproj",
-        "packagesPath": "C:\\Users\\Luca Mannens\\.nuget\\packages\\",
-        "outputPath": "D:\\HOGENT\\Projectwerk\\AutoFocuas_WebAPI_v3\\AutoFocus_V3\\AF.Application\\obj\\",
+        "projectPath": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.Application\\AF.Application.csproj",
+        "packagesPath": "C:\\Users\\Juane\\.nuget\\packages\\",
+        "outputPath": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Luca Mannens\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Juane\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -110,8 +110,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\HOGENT\\Projectwerk\\AutoFocuas_WebAPI_v3\\AutoFocus_V3\\AF.Domain\\AF.Domain.csproj": {
-                "projectPath": "D:\\HOGENT\\Projectwerk\\AutoFocuas_WebAPI_v3\\AutoFocus_V3\\AF.Domain\\AF.Domain.csproj"
+              "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.Domain\\AF.Domain.csproj": {
+                "projectPath": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.Domain\\AF.Domain.csproj"
               }
             }
           }
@@ -150,17 +150,17 @@
         }
       }
     },
-    "D:\\HOGENT\\Projectwerk\\AutoFocuas_WebAPI_v3\\AutoFocus_V3\\AF.Domain\\AF.Domain.csproj": {
+    "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.Domain\\AF.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HOGENT\\Projectwerk\\AutoFocuas_WebAPI_v3\\AutoFocus_V3\\AF.Domain\\AF.Domain.csproj",
+        "projectUniqueName": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.Domain\\AF.Domain.csproj",
         "projectName": "AF.Domain",
-        "projectPath": "D:\\HOGENT\\Projectwerk\\AutoFocuas_WebAPI_v3\\AutoFocus_V3\\AF.Domain\\AF.Domain.csproj",
-        "packagesPath": "C:\\Users\\Luca Mannens\\.nuget\\packages\\",
-        "outputPath": "D:\\HOGENT\\Projectwerk\\AutoFocuas_WebAPI_v3\\AutoFocus_V3\\AF.Domain\\obj\\",
+        "projectPath": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.Domain\\AF.Domain.csproj",
+        "packagesPath": "C:\\Users\\Juane\\.nuget\\packages\\",
+        "outputPath": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Luca Mannens\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Juane\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -210,17 +210,17 @@
         }
       }
     },
-    "D:\\HOGENT\\Projectwerk\\AutoFocuas_WebAPI_v3\\AutoFocus_V3\\AF.Infrastructure\\AF.Infrastructure.csproj": {
+    "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.Infrastructure\\AF.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HOGENT\\Projectwerk\\AutoFocuas_WebAPI_v3\\AutoFocus_V3\\AF.Infrastructure\\AF.Infrastructure.csproj",
+        "projectUniqueName": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.Infrastructure\\AF.Infrastructure.csproj",
         "projectName": "AF.Infrastructure",
-        "projectPath": "D:\\HOGENT\\Projectwerk\\AutoFocuas_WebAPI_v3\\AutoFocus_V3\\AF.Infrastructure\\AF.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Luca Mannens\\.nuget\\packages\\",
-        "outputPath": "D:\\HOGENT\\Projectwerk\\AutoFocuas_WebAPI_v3\\AutoFocus_V3\\AF.Infrastructure\\obj\\",
+        "projectPath": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.Infrastructure\\AF.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Juane\\.nuget\\packages\\",
+        "outputPath": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Luca Mannens\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Juane\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -234,11 +234,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\HOGENT\\Projectwerk\\AutoFocuas_WebAPI_v3\\AutoFocus_V3\\AF.Application\\AF.Application.csproj": {
-                "projectPath": "D:\\HOGENT\\Projectwerk\\AutoFocuas_WebAPI_v3\\AutoFocus_V3\\AF.Application\\AF.Application.csproj"
+              "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.Application\\AF.Application.csproj": {
+                "projectPath": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.Application\\AF.Application.csproj"
               },
-              "D:\\HOGENT\\Projectwerk\\AutoFocuas_WebAPI_v3\\AutoFocus_V3\\AF.Domain\\AF.Domain.csproj": {
-                "projectPath": "D:\\HOGENT\\Projectwerk\\AutoFocuas_WebAPI_v3\\AutoFocus_V3\\AF.Domain\\AF.Domain.csproj"
+              "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.Domain\\AF.Domain.csproj": {
+                "projectPath": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.Domain\\AF.Domain.csproj"
               }
             }
           }

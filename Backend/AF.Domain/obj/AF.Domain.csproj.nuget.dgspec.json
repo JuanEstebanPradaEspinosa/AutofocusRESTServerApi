@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\HOGENT\\Projectwerk\\AutoFocuas_WebAPI_v3\\AutoFocus_V3\\AF.Domain\\AF.Domain.csproj": {}
+    "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.Domain\\AF.Domain.csproj": {}
   },
   "projects": {
-    "D:\\HOGENT\\Projectwerk\\AutoFocuas_WebAPI_v3\\AutoFocus_V3\\AF.Domain\\AF.Domain.csproj": {
+    "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.Domain\\AF.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HOGENT\\Projectwerk\\AutoFocuas_WebAPI_v3\\AutoFocus_V3\\AF.Domain\\AF.Domain.csproj",
+        "projectUniqueName": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.Domain\\AF.Domain.csproj",
         "projectName": "AF.Domain",
-        "projectPath": "D:\\HOGENT\\Projectwerk\\AutoFocuas_WebAPI_v3\\AutoFocus_V3\\AF.Domain\\AF.Domain.csproj",
-        "packagesPath": "C:\\Users\\Luca Mannens\\.nuget\\packages\\",
-        "outputPath": "D:\\HOGENT\\Projectwerk\\AutoFocuas_WebAPI_v3\\AutoFocus_V3\\AF.Domain\\obj\\",
+        "projectPath": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.Domain\\AF.Domain.csproj",
+        "packagesPath": "C:\\Users\\Juane\\.nuget\\packages\\",
+        "outputPath": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Luca Mannens\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Juane\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
