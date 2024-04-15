@@ -1,0 +1,309 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1EDBA735-F786-4DEB-B30D-FC4733903064}|AF.API\\AF.API.csproj|d:\\projectwerk\\autofocusrestserverapi\\backend\\af.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EDBA735-F786-4DEB-B30D-FC4733903064}|AF.API\\AF.API.csproj|solutionrelative:af.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EDBA735-F786-4DEB-B30D-FC4733903064}|AF.API\\AF.API.csproj|d:\\projectwerk\\autofocusrestserverapi\\backend\\af.api\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EDBA735-F786-4DEB-B30D-FC4733903064}|AF.API\\AF.API.csproj|solutionrelative:af.api\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8F88A49-C548-4937-B2AE-8C84B08FC26D}|AF.BL\\AF.BL.csproj|d:\\projectwerk\\autofocusrestserverapi\\backend\\af.bl\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8F88A49-C548-4937-B2AE-8C84B08FC26D}|AF.BL\\AF.BL.csproj|solutionrelative:af.bl\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56836F8A-485E-44A8-B14A-D8C23E81EAB8}|AF.DL\\AF.DL.csproj|d:\\projectwerk\\autofocusrestserverapi\\backend\\af.dl\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56836F8A-485E-44A8-B14A-D8C23E81EAB8}|AF.DL\\AF.DL.csproj|solutionrelative:af.dl\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56836F8A-485E-44A8-B14A-D8C23E81EAB8}|AF.DL\\AF.DL.csproj|d:\\projectwerk\\autofocusrestserverapi\\backend\\af.dl\\mappers\\mappingconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56836F8A-485E-44A8-B14A-D8C23E81EAB8}|AF.DL\\AF.DL.csproj|solutionrelative:af.dl\\mappers\\mappingconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8F88A49-C548-4937-B2AE-8C84B08FC26D}|AF.BL\\AF.BL.csproj|d:\\projectwerk\\autofocusrestserverapi\\backend\\af.bl\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8F88A49-C548-4937-B2AE-8C84B08FC26D}|AF.BL\\AF.BL.csproj|solutionrelative:af.bl\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56836F8A-485E-44A8-B14A-D8C23E81EAB8}|AF.DL\\AF.DL.csproj|d:\\projectwerk\\autofocusrestserverapi\\backend\\af.dl\\repositories\\cargenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56836F8A-485E-44A8-B14A-D8C23E81EAB8}|AF.DL\\AF.DL.csproj|solutionrelative:af.dl\\repositories\\cargenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56836F8A-485E-44A8-B14A-D8C23E81EAB8}|AF.DL\\AF.DL.csproj|d:\\projectwerk\\autofocusrestserverapi\\backend\\af.dl\\data\\autofocuscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56836F8A-485E-44A8-B14A-D8C23E81EAB8}|AF.DL\\AF.DL.csproj|solutionrelative:af.dl\\data\\autofocuscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8F88A49-C548-4937-B2AE-8C84B08FC26D}|AF.BL\\AF.BL.csproj|d:\\projectwerk\\autofocusrestserverapi\\backend\\af.bl\\models\\carmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8F88A49-C548-4937-B2AE-8C84B08FC26D}|AF.BL\\AF.BL.csproj|solutionrelative:af.bl\\models\\carmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8F88A49-C548-4937-B2AE-8C84B08FC26D}|AF.BL\\AF.BL.csproj|d:\\projectwerk\\autofocusrestserverapi\\backend\\af.bl\\models\\ownermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8F88A49-C548-4937-B2AE-8C84B08FC26D}|AF.BL\\AF.BL.csproj|solutionrelative:af.bl\\models\\ownermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8F88A49-C548-4937-B2AE-8C84B08FC26D}|AF.BL\\AF.BL.csproj|d:\\projectwerk\\autofocusrestserverapi\\backend\\af.bl\\models\\tenantmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8F88A49-C548-4937-B2AE-8C84B08FC26D}|AF.BL\\AF.BL.csproj|solutionrelative:af.bl\\models\\tenantmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8F88A49-C548-4937-B2AE-8C84B08FC26D}|AF.BL\\AF.BL.csproj|d:\\projectwerk\\autofocusrestserverapi\\backend\\af.bl\\models\\bookingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8F88A49-C548-4937-B2AE-8C84B08FC26D}|AF.BL\\AF.BL.csproj|solutionrelative:af.bl\\models\\bookingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56836F8A-485E-44A8-B14A-D8C23E81EAB8}|AF.DL\\AF.DL.csproj|d:\\projectwerk\\autofocusrestserverapi\\backend\\af.dl\\entities\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56836F8A-485E-44A8-B14A-D8C23E81EAB8}|AF.DL\\AF.DL.csproj|solutionrelative:af.dl\\entities\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56836F8A-485E-44A8-B14A-D8C23E81EAB8}|AF.DL\\AF.DL.csproj|d:\\projectwerk\\autofocusrestserverapi\\backend\\af.dl\\entities\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56836F8A-485E-44A8-B14A-D8C23E81EAB8}|AF.DL\\AF.DL.csproj|solutionrelative:af.dl\\entities\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56836F8A-485E-44A8-B14A-D8C23E81EAB8}|AF.DL\\AF.DL.csproj|d:\\projectwerk\\autofocusrestserverapi\\backend\\af.dl\\entities\\owner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56836F8A-485E-44A8-B14A-D8C23E81EAB8}|AF.DL\\AF.DL.csproj|solutionrelative:af.dl\\entities\\owner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56836F8A-485E-44A8-B14A-D8C23E81EAB8}|AF.DL\\AF.DL.csproj|d:\\projectwerk\\autofocusrestserverapi\\backend\\af.dl\\entities\\tenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56836F8A-485E-44A8-B14A-D8C23E81EAB8}|AF.DL\\AF.DL.csproj|solutionrelative:af.dl\\entities\\tenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EDBA735-F786-4DEB-B30D-FC4733903064}|AF.API\\AF.API.csproj|d:\\projectwerk\\autofocusrestserverapi\\backend\\af.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1EDBA735-F786-4DEB-B30D-FC4733903064}|AF.API\\AF.API.csproj|solutionrelative:af.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MappingConfig.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.DL\\Mappers\\MappingConfig.cs",
+              "RelativeDocumentMoniker": "AF.DL\\Mappers\\MappingConfig.cs",
+              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.DL\\Mappers\\MappingConfig.cs",
+              "RelativeToolTip": "AF.DL\\Mappers\\MappingConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T20:20:17.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CarController.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.API\\Controllers\\CarController.cs",
+              "RelativeDocumentMoniker": "AF.API\\Controllers\\CarController.cs",
+              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.API\\Controllers\\CarController.cs",
+              "RelativeToolTip": "AF.API\\Controllers\\CarController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T14:29:20.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.BL\\Interfaces\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "AF.BL\\Interfaces\\IGenericRepository.cs",
+              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.BL\\Interfaces\\IGenericRepository.cs",
+              "RelativeToolTip": "AF.BL\\Interfaces\\IGenericRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T15:14:02.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.API\\Program.cs",
+              "RelativeDocumentMoniker": "AF.API\\Program.cs",
+              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.API\\Program.cs",
+              "RelativeToolTip": "AF.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T13:26:16.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.DL\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "AF.DL\\Repositories\\GenericRepository.cs",
+              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.DL\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "AF.DL\\Repositories\\GenericRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T13:53:35.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Manager.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.BL\\Manager.cs",
+              "RelativeDocumentMoniker": "AF.BL\\Manager.cs",
+              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.BL\\Manager.cs",
+              "RelativeToolTip": "AF.BL\\Manager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T13:27:35.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CarGenericRepository.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.DL\\Repositories\\CarGenericRepository.cs",
+              "RelativeDocumentMoniker": "AF.DL\\Repositories\\CarGenericRepository.cs",
+              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.DL\\Repositories\\CarGenericRepository.cs",
+              "RelativeToolTip": "AF.DL\\Repositories\\CarGenericRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T14:14:01.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AutoFocusContext.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.DL\\Data\\AutoFocusContext.cs",
+              "RelativeDocumentMoniker": "AF.DL\\Data\\AutoFocusContext.cs",
+              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.DL\\Data\\AutoFocusContext.cs",
+              "RelativeToolTip": "AF.DL\\Data\\AutoFocusContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T13:50:10.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CarModel.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.BL\\Models\\CarModel.cs",
+              "RelativeDocumentMoniker": "AF.BL\\Models\\CarModel.cs",
+              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.BL\\Models\\CarModel.cs",
+              "RelativeToolTip": "AF.BL\\Models\\CarModel.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAiwBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T15:17:07.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OwnerModel.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.BL\\Models\\OwnerModel.cs",
+              "RelativeDocumentMoniker": "AF.BL\\Models\\OwnerModel.cs",
+              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.BL\\Models\\OwnerModel.cs",
+              "RelativeToolTip": "AF.BL\\Models\\OwnerModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T15:37:38.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TenantModel.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.BL\\Models\\TenantModel.cs",
+              "RelativeDocumentMoniker": "AF.BL\\Models\\TenantModel.cs",
+              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.BL\\Models\\TenantModel.cs",
+              "RelativeToolTip": "AF.BL\\Models\\TenantModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T15:39:14.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.DL\\Entities\\Booking.cs",
+              "RelativeDocumentMoniker": "AF.DL\\Entities\\Booking.cs",
+              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.DL\\Entities\\Booking.cs",
+              "RelativeToolTip": "AF.DL\\Entities\\Booking.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T13:52:47.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Car.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.DL\\Entities\\Car.cs",
+              "RelativeDocumentMoniker": "AF.DL\\Entities\\Car.cs",
+              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.DL\\Entities\\Car.cs",
+              "RelativeToolTip": "AF.DL\\Entities\\Car.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T13:29:44.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Owner.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.DL\\Entities\\Owner.cs",
+              "RelativeDocumentMoniker": "AF.DL\\Entities\\Owner.cs",
+              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.DL\\Entities\\Owner.cs",
+              "RelativeToolTip": "AF.DL\\Entities\\Owner.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T13:44:44.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BookingModel.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.BL\\Models\\BookingModel.cs",
+              "RelativeDocumentMoniker": "AF.BL\\Models\\BookingModel.cs",
+              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.BL\\Models\\BookingModel.cs",
+              "RelativeToolTip": "AF.BL\\Models\\BookingModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T15:38:24.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Tenant.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.DL\\Entities\\Tenant.cs",
+              "RelativeDocumentMoniker": "AF.DL\\Entities\\Tenant.cs",
+              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.DL\\Entities\\Tenant.cs",
+              "RelativeToolTip": "AF.DL\\Entities\\Tenant.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T13:53:22.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.API\\Dockerfile",
+              "RelativeDocumentMoniker": "AF.API\\Dockerfile",
+              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.API\\Dockerfile",
+              "RelativeToolTip": "AF.API\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-28T14:32:49.417Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
