@@ -1,4 +1,6 @@
-﻿namespace AF.Infrastructure.Repos {
+﻿using AF.Application.Pagination;
+
+namespace AF.Infrastructure.Repos {
     public interface IRepository<T> {
         Task<T> GetByIdAsync(int id);
         Task<List<T>> GetAllAsync();

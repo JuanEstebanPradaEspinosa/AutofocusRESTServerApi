@@ -3,12 +3,17 @@ using AF.Domain.Entities;
 using AF.Infrastructure.Data;
 using AF.Infrastructure.Repos;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Diagnostics.HealthChecks;
+using Microsoft.AspNetCore.Http;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Diagnostics.HealthChecks;
 using Microsoft.IdentityModel.Tokens;
-using System.ComponentModel.Design;
 using System.Text;
+using System.Threading.RateLimiting;
 
 namespace AF.Infrastructure.DependencyInjection {
     public static class DependencyInjection {
@@ -23,6 +28,35 @@ namespace AF.Infrastructure.DependencyInjection {
                 options.UseSqlServer(configuration.GetConnectionString("dcs")),
                 ServiceLifetime.Scoped);
 
+            /* Health Checks */
+            services
+                .AddHealthChecks()
+                .AddCheck("sql", () => {
+                    using (var connection = new SqlConnection(configuration.GetConnectionString("dcs"))) {
+                        try {
+                            connection.Open();
+                        } catch (SqlException) {
+
+                            return HealthCheckResult.Unhealthy();
+                        }
+                    }
+
+                    return HealthCheckResult.Healthy();
+                });
+
+            /* Rate Limiter */
+            services.AddRateLimiter(options =>
+            {
+                options.GlobalLimiter = PartitionedRateLimiter.Create<HttpContext, string>(httpContext =>
+                    RateLimitPartition.GetFixedWindowLimiter(
+                        partitionKey: httpContext.User.Identity?.Name ?? httpContext.Request.Headers.Host.ToString(),
+                        factory: partition => new FixedWindowRateLimiterOptions {
+                            AutoReplenishment = true,
+                            PermitLimit = 10,
+                            QueueLimit = 0,
+                            Window = TimeSpan.FromMinutes(1)
+                        }));
+            });
 
             /*
              JwtBearer Nuget Package -  
