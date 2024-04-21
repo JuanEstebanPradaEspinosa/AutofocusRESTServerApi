@@ -1,5 +1,6 @@
 ﻿using AF.Application.Contracts;
-using AF.Application.DTO;
+using AF.Application.DTO.Input;
+using AF.Application.DTO.Output;
 using AF.Domain.Entities;
 using AF.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
@@ -8,7 +9,8 @@ using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 
-namespace AF.Infrastructure.Repos {
+namespace AF.Infrastructure.Repos
+{
     public class UserRepo : IUser {
 
         private readonly AppDbContext _appDbContext;

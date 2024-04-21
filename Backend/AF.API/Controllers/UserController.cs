@@ -1,11 +1,13 @@
 ﻿using AF.Application.Contracts;
-using AF.Application.DTO;
+using AF.Application.DTO.Input;
+using AF.Application.DTO.Output;
 using AF.Domain.Entities;
 using AF.Infrastructure.Repos;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace AF.API.Controllers {
+namespace AF.API.Controllers
+{
     [Route("api/[controller]")]
     [ApiController]
     public class UserController : ControllerBase {

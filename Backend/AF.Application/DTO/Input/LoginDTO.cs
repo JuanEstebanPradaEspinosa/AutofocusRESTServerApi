@@ -5,8 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AF.Application.DTO {
-    public class LoginDTO {
+namespace AF.Application.DTO.Input
+{
+    public class LoginDTO
+    {
         [Required, EmailAddress]
         public string? Email { get; set; }
 

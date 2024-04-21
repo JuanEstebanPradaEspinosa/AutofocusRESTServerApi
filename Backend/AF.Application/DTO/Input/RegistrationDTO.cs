@@ -1,7 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace AF.Application.DTO {
-    public class RegistrationDTO {
+namespace AF.Application.DTO.Input
+{
+    public class RegistrationDTO
+    {
         [Required]
         public string? Name { get; set; } = string.Empty;
         [Required]

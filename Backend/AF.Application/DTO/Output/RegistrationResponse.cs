@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AF.Application.DTO {
+namespace AF.Application.DTO.Output
+{
     public record RegistrationResponse(bool Flag, string Message = null!) { }
 }

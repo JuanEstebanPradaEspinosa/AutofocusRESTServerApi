@@ -85,7 +85,7 @@ namespace AF.Infrastructure.DependencyInjection {
 
             /*Zonder deze scopes* zouden ze altijd een 500 error status code krijgen*/
             // * AddScoped zorgt voor data in en uit de databank te halen binnen een sessie van de applicatie
-            services.AddScoped<IUser, UserRepo>();
+            services.AddScoped <IUser, UserRepo>();
             services.AddScoped <IRepository<User>,GenericRepository<User>>();
             services.AddScoped <IRepository<Booking>,GenericRepository<Booking>>();
             services.AddScoped <IRepository<Car>,GenericRepository<Car>>();
