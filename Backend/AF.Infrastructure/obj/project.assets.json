@@ -1481,24 +1481,11 @@
       "AF.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "AF.Domain": "1.0.0"
-        },
         "compile": {
           "bin/placeholder/AF.Application.dll": {}
         },
         "runtime": {
           "bin/placeholder/AF.Application.dll": {}
-        }
-      },
-      "AF.Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/AF.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/AF.Domain.dll": {}
         }
       }
     }
@@ -3887,17 +3874,11 @@
       "type": "project",
       "path": "../AF.Application/AF.Application.csproj",
       "msbuildProject": "../AF.Application/AF.Application.csproj"
-    },
-    "AF.Domain/1.0.0": {
-      "type": "project",
-      "path": "../AF.Domain/AF.Domain.csproj",
-      "msbuildProject": "../AF.Domain/AF.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "AF.Application >= 1.0.0",
-      "AF.Domain >= 1.0.0",
       "BCrypt.Net-Next >= 4.0.3",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 8.0.4",
       "Microsoft.EntityFrameworkCore >= 8.0.4",
@@ -3934,9 +3915,6 @@
           "projectReferences": {
             "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.Application\\AF.Application.csproj": {
               "projectPath": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.Application\\AF.Application.csproj"
-            },
-            "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.Domain\\AF.Domain.csproj": {
-              "projectPath": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.Domain\\AF.Domain.csproj"
             }
           }
         }

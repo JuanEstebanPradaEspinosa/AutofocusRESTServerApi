@@ -1,5 +1,4 @@
-﻿using AF.Application.Contracts;
-using AF.Domain.Entities;
+﻿using AF.Application.Interfaces;
 using AF.Infrastructure.Data;
 using AF.Infrastructure.Repos;
 using Microsoft.AspNetCore.Authentication.JwtBearer;

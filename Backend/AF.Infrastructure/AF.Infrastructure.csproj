@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AF.Application\AF.Application.csproj" />
-    <ProjectReference Include="..\AF.Domain\AF.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>

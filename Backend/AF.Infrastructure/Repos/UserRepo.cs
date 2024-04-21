@@ -1,7 +1,7 @@
-﻿using AF.Application.Contracts;
+﻿using AF.Application.Interfaces;
 using AF.Application.DTO.Input;
 using AF.Application.DTO.Output;
-using AF.Domain.Entities;
+using AF.Infrastructure.Entities;
 using AF.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;

@@ -1,4 +1,5 @@
 ﻿
+using AF.Application.Interfaces;
 using AF.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 

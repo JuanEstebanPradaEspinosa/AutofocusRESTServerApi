@@ -1,7 +1,7 @@
 ﻿using AF.Application.DTO.Input;
 using AF.Application.DTO.Output;
 
-namespace AF.Application.Contracts
+namespace AF.Application.Interfaces
 {
     public interface IUser {
 
