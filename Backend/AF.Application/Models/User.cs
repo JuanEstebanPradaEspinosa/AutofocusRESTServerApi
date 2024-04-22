@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace AF.Infrastructure.Entities
+namespace AF.Application.Models
 {
     public partial class User {
         [Key]

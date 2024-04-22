@@ -1,4 +1,4 @@
-﻿namespace AF.Infrastructure.Entities
+﻿namespace AF.Application.Models
 {
     public class Tenant : User { // huurder
         public User? User { get; set; }

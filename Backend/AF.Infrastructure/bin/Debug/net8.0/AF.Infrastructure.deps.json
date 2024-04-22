@@ -9,7 +9,6 @@
       "AF.Infrastructure/1.0.0": {
         "dependencies": {
           "AF.Application": "1.0.0",
-          "AF.Domain": "1.0.0",
           "BCrypt.Net-Next": "4.0.3",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.4",
           "Microsoft.EntityFrameworkCore": "8.0.4",
@@ -860,16 +859,8 @@
         }
       },
       "AF.Application/1.0.0": {
-        "dependencies": {
-          "AF.Domain": "1.0.0"
-        },
         "runtime": {
           "AF.Application.dll": {}
-        }
-      },
-      "AF.Domain/1.0.0": {
-        "runtime": {
-          "AF.Domain.dll": {}
         }
       }
     }
@@ -1392,11 +1383,6 @@
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     },
     "AF.Application/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "AF.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

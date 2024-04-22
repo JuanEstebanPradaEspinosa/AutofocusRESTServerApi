@@ -1,4 +1,4 @@
-﻿using AF.Domain.Entities;
+﻿using AF.Infrastructure.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace AF.Infrastructure.Data {
@@ -10,11 +10,10 @@ namespace AF.Infrastructure.Data {
         public DbSet<User> Users { get; set; }
         public DbSet<Car> Cars { get; set; }
         public DbSet<Booking> Bookings { get; set; }
-        public DbSet<Tenant> Tenants { get; set; }
-        public DbSet<Lessor> Lessors { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder) {
-            // Relatie tussen Tenant en User
+            // Relatie tussen User en cars + User and bookings
+            //TODO:
             modelBuilder.Entity<Tenant>()
                 .HasOne(t => t.User)
                 .WithMany()

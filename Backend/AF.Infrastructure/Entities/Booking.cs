@@ -1,11 +1,11 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using AF.Application.Models;
+using System.ComponentModel.DataAnnotations;
 
 namespace AF.Infrastructure.Entities
 {
     public class Booking
     {
-        [Key]
-        public int BoekingId { get; set; }
+        public int Id { get; set; }
         public DateTime StartDatum { get; set; }
         public DateTime EindDatum { get; set; }
     }

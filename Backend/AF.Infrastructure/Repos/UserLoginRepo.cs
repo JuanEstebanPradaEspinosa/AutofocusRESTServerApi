@@ -11,12 +11,12 @@ using System.Security.Claims;
 
 namespace AF.Infrastructure.Repos
 {
-    public class UserRepo : IUser {
+    public class UserLoginRepo : IUser {
 
         private readonly AppDbContext _appDbContext;
         private readonly IConfiguration configuration;
 
-        public UserRepo(AppDbContext appDbContext, IConfiguration configuration) {
+        public UserLoginRepo(AppDbContext appDbContext, IConfiguration configuration) {
             this._appDbContext = appDbContext;
             this.configuration = configuration;
         }
@@ -42,6 +42,9 @@ namespace AF.Infrastructure.Repos
             if (getUser != null)
                 return new RegistrationResponse(false, "User already exist.");
 
+            //controleer de usertype en voeg dan bij de context de tenant of Lessor toe!
+            //TODO:
+/*
             _appDbContext.Users.Add(new User {
                 Name = registerUserDTO.Name,
                 LastName = registerUserDTO.LastName,
@@ -49,7 +52,7 @@ namespace AF.Infrastructure.Repos
                 Password = BCrypt.Net.BCrypt.HashPassword(registerUserDTO.Password),
                 PhoneNumber = registerUserDTO.PhoneNumber,
                 ProfilePicture = registerUserDTO.ProfilePicture
-            });
+            });*/
 
             await _appDbContext.SaveChangesAsync();
             return new RegistrationResponse(true, "Registration completed");

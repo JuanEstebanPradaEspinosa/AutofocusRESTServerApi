@@ -17,5 +17,6 @@ namespace AF.Application.DTO.Input
         [Required, Compare(nameof(Password))]
         public string? ConfirmPassword { get; set; } = string.Empty;
         public byte[]? ProfilePicture { get; set; }
+        public string? UserType { get; set; }
     }
 }

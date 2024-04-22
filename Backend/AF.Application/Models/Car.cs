@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace AF.Infrastructure.Entities
+namespace AF.Application.Models
 {
     public class Car
     {

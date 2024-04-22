@@ -1,5 +1,4 @@
-﻿using AF.Domain.Entities;
-using AF.Infrastructure.Repos;
+﻿using AF.Infrastructure.Repos;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -7,7 +6,7 @@ namespace AF.API.Controllers {
     [Route("api/[controller]")]
     [ApiController]
     public class CarController : ControllerBase {
-        private readonly IRepository<Car> _carRepository;
+/*        private readonly IRepository<Car> _carRepository;
         public CarController(IRepository<Car> carRepository) {
             _carRepository = carRepository;
         }
@@ -22,6 +21,6 @@ namespace AF.API.Controllers {
         public async Task<IActionResult> GetCarById(int id) {
             var result = await _carRepository.GetByIdAsync(id);
             return Ok(result);
-        }
+        }*/
     }
 }

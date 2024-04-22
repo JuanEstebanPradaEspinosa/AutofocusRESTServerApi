@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AF.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e58b6b1f4da294ef4ccec7a123830c3b89a3d25")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0afc30fa0686c9514a5660f7f85e69bb94c8a86e")]
 [assembly: System.Reflection.AssemblyProductAttribute("AF.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AF.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

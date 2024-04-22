@@ -22,9 +22,7 @@ D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Infrastructure\bin\Debug\net8.0
 D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Infrastructure\bin\Debug\net8.0\AF.Infrastructure.dll
 D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Infrastructure\bin\Debug\net8.0\AF.Infrastructure.pdb
 D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Infrastructure\bin\Debug\net8.0\AF.Application.dll
-D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Infrastructure\bin\Debug\net8.0\AF.Domain.dll
 D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Infrastructure\bin\Debug\net8.0\AF.Application.pdb
-D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Infrastructure\bin\Debug\net8.0\AF.Domain.pdb
 D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Infrastructure\obj\Debug\net8.0\AF.Infrastructure.csproj.AssemblyReference.cache
 D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Infrastructure\obj\Debug\net8.0\AF.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
 D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Infrastructure\obj\Debug\net8.0\AF.Infrastructure.AssemblyInfoInputs.cache

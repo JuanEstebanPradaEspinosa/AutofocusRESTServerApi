@@ -11,7 +11,7 @@ namespace AF.Infrastructure.Migrations
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.CreateTable(
+/*            migrationBuilder.CreateTable(
                 name: "Users",
                 columns: table => new
                 {
@@ -29,9 +29,9 @@ namespace AF.Infrastructure.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Users", x => x.Id);
-                });
+                });*/
 
-            migrationBuilder.CreateTable(
+/*            migrationBuilder.CreateTable(
                 name: "Bookings",
                 columns: table => new
                 {
@@ -49,9 +49,9 @@ namespace AF.Infrastructure.Migrations
                         column: x => x.TenantId,
                         principalTable: "Users",
                         principalColumn: "Id");
-                });
+                });*/
 
-            migrationBuilder.CreateTable(
+/*            migrationBuilder.CreateTable(
                 name: "Cars",
                 columns: table => new
                 {
@@ -72,9 +72,9 @@ namespace AF.Infrastructure.Migrations
                         column: x => x.LessorId,
                         principalTable: "Users",
                         principalColumn: "Id");
-                });
+                });*/
 
-            migrationBuilder.CreateIndex(
+/*            migrationBuilder.CreateIndex(
                 name: "IX_Bookings_TenantId",
                 table: "Bookings",
                 column: "TenantId");
@@ -82,7 +82,7 @@ namespace AF.Infrastructure.Migrations
             migrationBuilder.CreateIndex(
                 name: "IX_Cars_LessorId",
                 table: "Cars",
-                column: "LessorId");
+                column: "LessorId");*/
         }
 
         /// <inheritdoc />

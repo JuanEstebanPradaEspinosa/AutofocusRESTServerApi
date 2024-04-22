@@ -1,5 +1,4 @@
-﻿using AF.Domain.Entities;
-using AF.Infrastructure.Repos;
+﻿using AF.Infrastructure.Repos;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -7,7 +6,7 @@ namespace AF.API.Controllers {
     [Route("api/[controller]")]
     [ApiController]
     public class BookingController : ControllerBase {
-        private readonly IRepository<Booking> _bookingRepository;
+/*        private readonly IRepository<Booking> _bookingRepository;
         public BookingController(IRepository<Booking> bookingRepository) {
             _bookingRepository = bookingRepository;
         }
@@ -25,6 +24,6 @@ namespace AF.API.Controllers {
                 return NotFound();
             }
             return Ok(result);
-        }
+        }*/
     }
 }

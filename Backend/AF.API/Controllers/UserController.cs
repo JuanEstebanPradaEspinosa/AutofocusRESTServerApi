@@ -1,7 +1,6 @@
-﻿using AF.Application.Contracts;
-using AF.Application.DTO.Input;
+﻿using AF.Application.DTO.Input;
 using AF.Application.DTO.Output;
-using AF.Domain.Entities;
+using AF.Application.Interfaces;
 using AF.Infrastructure.Repos;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -12,10 +11,10 @@ namespace AF.API.Controllers
     [ApiController]
     public class UserController : ControllerBase {
         private readonly IUser _user;
-        private readonly IRepository<User> _userRepository;
-        public UserController(IUser user, IRepository<User> repository) {
+        //private readonly IRepository<User> _userRepository;
+        public UserController(IUser user/*, IRepository<User> repository*/) {
             this._user = user;
-            this._userRepository = repository;
+           //this._userRepository = repository;
         }
 
         [HttpPost("login")]
@@ -30,19 +29,19 @@ namespace AF.API.Controllers
             return Ok(result);
         }
 
-        [HttpGet]
+/*        [HttpGet]
         public async Task<IActionResult> GetAllUsers() {
             var users = await _userRepository.GetAllAsync();
             return Ok(users);
         }
 
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetUserById(int id) {
+         public async Task<IActionResult> GetUserById(int id) {
             var user = await _userRepository.GetByIdAsync(id);
             if (user == null) {
                 return NotFound();
-            }
-            return Ok(user);
         }
+            return Ok(user);
+        }*/
     }
 }

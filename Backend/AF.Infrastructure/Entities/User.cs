@@ -2,7 +2,7 @@
 
 namespace AF.Infrastructure.Entities
 {
-    public partial class User {
+    public abstract class User {
         [Key]
         public int Id { get; set; }
         public string? Name { get; set; }
@@ -12,7 +12,7 @@ namespace AF.Infrastructure.Entities
         public string? PhoneNumber { get; set; }
         public byte[]? ProfilePicture { get; set; }
         //[NotMapped]
-        public string? UserType { get; set; }
+        public string? UserType { get; set; } //best gebruik van enums om dit te realiseren
         /*Bij UserType zat ik te denken, tijdens het registreren heeft de gebruiker normaal de keuze om aan
          te duiden of hij/zij een huurder of verhuurder is... de waarde uit de (mogelijkse) dropdown box kan dan
         gebruikt worden om bij UserType te zetten. 
