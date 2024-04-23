@@ -1,0 +1,12 @@
+D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Domain\obj\Debug\net8.0\AF.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Domain\obj\Debug\net8.0\AF.Domain.AssemblyInfoInputs.cache
+D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Domain\obj\Debug\net8.0\AF.Domain.AssemblyInfo.cs
+D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Domain\obj\Debug\net8.0\AF.Domain.csproj.CoreCompileInputs.cache
+D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Domain\obj\Debug\net8.0\AF.Domain.sourcelink.json
+D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Domain\bin\Debug\net8.0\AF.Domain.deps.json
+D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Domain\bin\Debug\net8.0\AF.Domain.dll
+D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Domain\bin\Debug\net8.0\AF.Domain.pdb
+D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Domain\obj\Debug\net8.0\AF.Domain.dll
+D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Domain\obj\Debug\net8.0\refint\AF.Domain.dll
+D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Domain\obj\Debug\net8.0\AF.Domain.pdb
+D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Domain\obj\Debug\net8.0\ref\AF.Domain.dll

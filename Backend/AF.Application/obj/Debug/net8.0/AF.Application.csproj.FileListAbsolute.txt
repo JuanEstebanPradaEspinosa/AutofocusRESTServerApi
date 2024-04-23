@@ -25,3 +25,7 @@ D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Application\obj\Debug\net8.0\AF
 D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Application\obj\Debug\net8.0\refint\AF.Application.dll
 D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Application\obj\Debug\net8.0\AF.Application.pdb
 D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Application\obj\Debug\net8.0\ref\AF.Application.dll
+D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Application\bin\Debug\net8.0\AF.Domain.dll
+D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Application\bin\Debug\net8.0\AF.Domain.pdb
+D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Application\obj\Debug\net8.0\AF.Application.csproj.AssemblyReference.cache
+D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Application\obj\Debug\net8.0\AF.Appli.CB51D3EF.Up2Date

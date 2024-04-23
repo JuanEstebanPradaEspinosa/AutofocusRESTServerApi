@@ -1,15 +1,12 @@
 using AF.Infrastructure.Data;
 using AF.Infrastructure.DependencyInjection;
 using AF.Infrastructure.HealthChecks;
-using Microsoft.Data.SqlClient;
-using Microsoft.Extensions.Diagnostics.HealthChecks;
 using Microsoft.OpenApi.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
+// Add services to the containers
 builder.Services.AddControllers();
-// 
 builder.Services.AddHealthChecks().AddCheck<DbContextHealthCheck<AppDbContext>>("CustomHealthCheck");
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -51,7 +48,6 @@ if (app.Environment.IsDevelopment()) {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
 
 app.MapHealthChecks("/health");
 

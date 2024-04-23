@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "AF.Application/1.0.0": {
+        "dependencies": {
+          "AF.Domain": "1.0.0"
+        },
         "runtime": {
           "AF.Application.dll": {}
+        }
+      },
+      "AF.Domain/1.0.0": {
+        "runtime": {
+          "AF.Domain.dll": {}
         }
       }
     }
   },
   "libraries": {
     "AF.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AF.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

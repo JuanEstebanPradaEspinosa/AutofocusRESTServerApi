@@ -1,7 +1,7 @@
-﻿using AF.Application.Interfaces;
+﻿using AF.Application.Contracts;
 using AF.Application.DTO.Input;
 using AF.Application.DTO.Output;
-using AF.Infrastructure.Entities;
+using AF.Domain.Entities;
 using AF.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -43,6 +43,7 @@ namespace AF.Infrastructure.Repos
                 return new RegistrationResponse(false, "User already exist.");
 
             //controleer de usertype en voeg dan bij de context de tenant of Lessor toe!
+            //ander soort gegevens worden doorgegeven om dan de tenant ofwel de lessor aan te maken
             //TODO:
 /*
             _appDbContext.Users.Add(new User {

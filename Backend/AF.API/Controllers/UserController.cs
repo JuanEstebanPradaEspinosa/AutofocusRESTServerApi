@@ -1,6 +1,6 @@
 ﻿using AF.Application.DTO.Input;
 using AF.Application.DTO.Output;
-using AF.Application.Interfaces;
+using AF.Application.Contracts;
 using AF.Infrastructure.Repos;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;

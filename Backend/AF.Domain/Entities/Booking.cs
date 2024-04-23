@@ -1,7 +1,6 @@
-﻿using AF.Application.Models;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
-namespace AF.Infrastructure.Entities
+namespace AF.Domain.Entities
 {
     public class Booking
     {

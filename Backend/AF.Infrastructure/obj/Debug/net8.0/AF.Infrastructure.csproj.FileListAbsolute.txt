@@ -35,3 +35,5 @@ D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Infrastructure\obj\Debug\net8.0
 D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Infrastructure\obj\Debug\net8.0\AF.Infrastructure.pdb
 D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Infrastructure\obj\Debug\net8.0\AF.Infrastructure.genruntimeconfig.cache
 D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Infrastructure\obj\Debug\net8.0\ref\AF.Infrastructure.dll
+D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Infrastructure\bin\Debug\net8.0\AF.Domain.dll
+D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Infrastructure\bin\Debug\net8.0\AF.Domain.pdb

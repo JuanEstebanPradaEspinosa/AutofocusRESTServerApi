@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "yazttvoD4GyiqSMzdc7WqunZi9jdZTOaAwS/0SQlNFd7Qx/1s2QAL8Atmkx5vdEAkV5DHnEOLQklj9BWQozLCA==",
+  "dgSpecHash": "fvuq3R105KEd9hmwa4dgmN4lr+km8JpRJpm6itgqhosCXqd944FMB1M97elEmebY/tG+kVp/Puas5tOGa5+Pkw==",
   "success": true,
   "projectFilePath": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.Infrastructure\\AF.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Juane\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Juane\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Juane\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\Juane\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",

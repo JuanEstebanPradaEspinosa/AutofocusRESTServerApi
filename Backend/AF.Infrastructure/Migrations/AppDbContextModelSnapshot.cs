@@ -131,12 +131,20 @@ namespace AF.Infrastructure.Migrations
                 {
                     b.HasBaseType("AF.Infrastructure.Entities.User");
 
+                    b.Property<string>("BtwNr")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasDiscriminator().HasValue("Lessor");
                 });
 
             modelBuilder.Entity("AF.Infrastructure.Entities.Tenant", b =>
                 {
                     b.HasBaseType("AF.Infrastructure.Entities.User");
+
+                    b.Property<string>("StudioName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasDiscriminator().HasValue("Tenant");
                 });

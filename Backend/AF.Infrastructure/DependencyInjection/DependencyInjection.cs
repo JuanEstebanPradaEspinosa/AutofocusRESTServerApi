@@ -1,6 +1,8 @@
-﻿using AF.Application.Interfaces;
+﻿using AF.Domain.Interfaces;
 using AF.Infrastructure.Data;
 using AF.Infrastructure.Repos;
+using AF.Domain.Entities;
+using AF.Application.Contracts;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
@@ -13,6 +15,7 @@ using Microsoft.Extensions.Diagnostics.HealthChecks;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using System.Threading.RateLimiting;
+using AF.Application;
 
 namespace AF.Infrastructure.DependencyInjection {
     public static class DependencyInjection {
@@ -86,10 +89,14 @@ namespace AF.Infrastructure.DependencyInjection {
             // * AddScoped zorgt voor data in en uit de databank te halen binnen een sessie van de applicatie
             services.AddScoped <IUser, UserLoginRepo>();
 
-            //TODO:
-/*            services.AddScoped <IRepository<User>,GenericRepository<User>>();
-            services.AddScoped <IRepository<Booking>,GenericRepository<Booking>>();
-            services.AddScoped <IRepository<Car>,GenericRepository<Car>>();*/
+            //GenericRepositories
+            /*services.AddScoped<IRepository<User>, GenericRepository<User>>();*/
+            services.AddScoped<IRepository<Booking>, GenericRepository<Booking>>();
+            services.AddScoped<IRepository<Car>, GenericRepository<Car>>();
+
+            //Adding manager in here with the correct repositories
+            services.AddScoped<Manager>();
+
             return services;
         }
     }

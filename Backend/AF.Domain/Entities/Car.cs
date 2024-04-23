@@ -1,11 +1,8 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-
-namespace AF.Infrastructure.Entities
+﻿
+namespace AF.Domain.Entities
 {
     public class Car
     {
-        [Key]
         public int Id { get; set; }
         public string? Model { get; set; }
         public string? Brand { get; set; }

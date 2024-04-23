@@ -1,5 +1,5 @@
 ﻿
-namespace AF.Application.Interfaces 
+namespace AF.Domain.Interfaces
 {
     public interface IRepository<T> {
         Task<T> GetByIdAsync(int id);

@@ -1,9 +1,8 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿
 
-namespace AF.Infrastructure.Entities
+namespace AF.Domain.Entities
 {
     public abstract class User {
-        [Key]
         public int Id { get; set; }
         public string? Name { get; set; }
         public string? LastName { get; set; }
