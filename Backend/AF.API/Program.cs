@@ -1,3 +1,5 @@
+using AF.Application;
+using AF.Application.Mapper;
 using AF.Infrastructure.Data;
 using AF.Infrastructure.DependencyInjection;
 using AF.Infrastructure.HealthChecks;
@@ -6,6 +8,9 @@ using Microsoft.OpenApi.Models;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the containers
+// Adding automapper
+builder.Services.AddAutoMapper(typeof(MappingConfig));
+
 builder.Services.AddControllers();
 builder.Services.AddHealthChecks().AddCheck<DbContextHealthCheck<AppDbContext>>("CustomHealthCheck");
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

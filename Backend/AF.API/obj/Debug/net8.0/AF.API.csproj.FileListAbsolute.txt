@@ -285,3 +285,6 @@ D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.API\obj\Debug\net8.0\refint\AF.
 D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.API\obj\Debug\net8.0\AF.API.pdb
 D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.API\obj\Debug\net8.0\AF.API.genruntimeconfig.cache
 D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.API\obj\Debug\net8.0\ref\AF.API.dll
+D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.API\bin\Debug\net8.0\AutoMapper.dll
+D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.API\bin\Debug\net8.0\AF.Domain.dll
+D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.API\bin\Debug\net8.0\AF.Domain.pdb

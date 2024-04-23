@@ -87,12 +87,17 @@ namespace AF.Infrastructure.DependencyInjection {
 
             /*Zonder deze scopes* zouden ze altijd een 500 error status code krijgen*/
             // * AddScoped zorgt voor data in en uit de databank te halen binnen een sessie van de applicatie
+
+            //Contract with jwt!!!!
             services.AddScoped <IUser, UserLoginRepo>();
 
             //GenericRepositories
-            /*services.AddScoped<IRepository<User>, GenericRepository<User>>();*/
-            services.AddScoped<IRepository<Booking>, GenericRepository<Booking>>();
-            services.AddScoped<IRepository<Car>, GenericRepository<Car>>();
+            #region Repositories
+            // * AddTransient: 
+            services.AddTransient(typeof(IRepository<>), typeof(GenericRepository<>));
+            services.AddTransient<ICarRepository, CarRepository>();
+            services.AddTransient<IBookingRepository, BookingRepository>();
+            #endregion
 
             //Adding manager in here with the correct repositories
             services.AddScoped<Manager>();

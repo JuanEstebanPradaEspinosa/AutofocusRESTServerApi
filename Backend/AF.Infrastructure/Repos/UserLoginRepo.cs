@@ -47,7 +47,7 @@ namespace AF.Infrastructure.Repos
             //TODO:
 /*
             _appDbContext.Users.Add(new User {
-                Name = registerUserDTO.Name,
+                FirstName = registerUserDTO.FirstName,
                 LastName = registerUserDTO.LastName,
                 Email = registerUserDTO.Email,
                 Password = BCrypt.Net.BCrypt.HashPassword(registerUserDTO.Password),
@@ -66,7 +66,8 @@ namespace AF.Infrastructure.Repos
 
             var userClaims = new[]{
                 new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
-                new Claim(ClaimTypes.Name, user.Name!),
+                new Claim(ClaimTypes.GivenName, user.FirstName!),
+                new Claim(ClaimTypes.Name, user.LastName!),
                 new Claim(ClaimTypes.Email, user.Email!),
             };
 

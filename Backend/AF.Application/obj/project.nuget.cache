@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "Ecj9A8SvEf+waiirefzYSbgEtwm96ts28X3qr0xRu7sueohYBBZ/5AO1+1GLWxsPTvokVb80UTFFf+7axFpALQ==",
+  "dgSpecHash": "SSrEGbdvgjI5r8GW3J2nlI/sNwqWQL6LmzwdkM7Towmw4CfWiocrJjgDWuj4/TOKLxoaegDrTUrwT1ZcjUx+0Q==",
   "success": true,
   "projectFilePath": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.Application\\AF.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Juane\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\Juane\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Juane\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\Juane\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Juane\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

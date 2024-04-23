@@ -1585,7 +1585,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "AF.Domain": "1.0.0"
+          "AF.Domain": "1.0.0",
+          "AutoMapper": "13.0.1"
         },
         "compile": {
           "bin/placeholder/AF.Application.dll": {}

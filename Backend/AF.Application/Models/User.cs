@@ -4,6 +4,29 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace AF.Application.Models
 {
     public partial class User {
+        public User(string? name, string? lastName, string? password, string? email, string? phoneNumber, byte[]? profilePicture, string? userType)
+        {
+            Name = name;
+            LastName = lastName;
+            Password = password;
+            Email = email;
+            PhoneNumber = phoneNumber;
+            ProfilePicture = profilePicture;
+            UserType = userType;
+        }
+
+        public User(int id, string? name, string? lastName, string? password, string? email, string? phoneNumber, byte[]? profilePicture, string? userType)
+        {
+            Id = id;
+            Name = name;
+            LastName = lastName;
+            Password = password;
+            Email = email;
+            PhoneNumber = phoneNumber;
+            ProfilePicture = profilePicture;
+            UserType = userType;
+        }
+
         public int Id { get; set; }
         public string? Name { get; set; }
         public string? LastName { get; set; }
