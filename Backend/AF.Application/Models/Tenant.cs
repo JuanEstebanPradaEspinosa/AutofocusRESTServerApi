@@ -12,6 +12,6 @@
 
         public string? StudioName { get; set; }
 
-        public List<Booking> Bookings { get; set; } = new List<Booking>();
+        public List<BookingModel> Bookings { get; set; } = new List<BookingModel>();
     }
 }

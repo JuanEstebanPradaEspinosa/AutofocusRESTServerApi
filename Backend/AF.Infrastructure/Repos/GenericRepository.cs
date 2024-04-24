@@ -15,7 +15,16 @@ namespace AF.Infrastructure.Repos
         }
 
         public async Task<List<T>> GetAllAsync() {
-            return await _appDbContext.Set<T>().ToListAsync();
+
+            try
+            {
+                return await _appDbContext.Set<T>().ToListAsync();
+            }
+            catch(Exception ex)
+            {
+                throw ex;
+            }
+            
         }
 
         public async Task<T> GetByIdAsync(int id) {
@@ -23,8 +32,17 @@ namespace AF.Infrastructure.Repos
         }
 
         public async Task AddAsync(T entity) {
-            await _appDbContext.Set<T>().AddAsync(entity);
-            await _appDbContext.SaveChangesAsync();
+
+            try
+            {
+                await _appDbContext.Set<T>().AddAsync(entity);
+                await _appDbContext.SaveChangesAsync();
+            }
+            catch(Exception ex)
+            {
+                throw ex;
+            }
+
         }
 
         public async Task UpdateAsync(T entity) {

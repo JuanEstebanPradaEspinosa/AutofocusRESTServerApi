@@ -10,6 +10,7 @@
         "dependencies": {
           "AF.Application": "1.0.0",
           "AF.Infrastructure": "1.0.0",
+          "AutoMapper": "13.0.1",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.4",
           "Swashbuckle.AspNetCore": "6.5.0"
         },

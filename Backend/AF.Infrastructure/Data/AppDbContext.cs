@@ -25,6 +25,10 @@ namespace AF.Infrastructure.Data {
                 .HasOne(l => l.User)
                 .WithMany()
                 .HasForeignKey(l => l.Id); // gebruikers-ID wordt geërfd van de User-klasse
+
+            //Booking having 2 keys
+            modelBuilder.Entity<Booking>()
+                .HasKey(b => new { b.CarId, b.TenantId });
         }
     }
 }

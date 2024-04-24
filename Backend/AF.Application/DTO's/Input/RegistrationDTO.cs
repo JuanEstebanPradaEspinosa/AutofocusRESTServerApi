@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace AF.Application.DTO.Input
+namespace AF.Application.DTO_s.Input
 {
     public class RegistrationDTO
     {

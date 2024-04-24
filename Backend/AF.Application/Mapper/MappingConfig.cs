@@ -1,4 +1,7 @@
-﻿using AF.Application.Models;
+﻿using AF.Application.DTO_s;
+using AF.Application.DTO_s.Input;
+using AF.Application.DTO_s.Output;
+using AF.Application.Models;
 using AF.Domain.Entities;
 using AutoMapper;
 using System;
@@ -13,7 +16,15 @@ namespace AF.Application.Mapper
     {
         public MappingConfig()
         {
-            CreateMap<Domain.Entities.Car, Models.CarModel>().ReverseMap();
+            
+            //Car Mappers
+            CreateMap<Car, CarModel>().ReverseMap();
+            CreateMap<CarModel, CarRESToutputDTO>();
+            CreateMap<CarRESTinputDTO, CarModel>();
+
+            //Booking Mappers
+            CreateMap<BookingModel, BookingRESTnormalDTO>().ReverseMap();
+            CreateMap<Booking, BookingModel>().ReverseMap();
         }
     }
 }

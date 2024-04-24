@@ -1,6 +1,6 @@
 ﻿using AF.Application.Contracts;
-using AF.Application.DTO.Input;
-using AF.Application.DTO.Output;
+using AF.Application.DTO_s.Input;
+using AF.Application.DTO_s.Output;
 using AF.Domain.Entities;
 using AF.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;

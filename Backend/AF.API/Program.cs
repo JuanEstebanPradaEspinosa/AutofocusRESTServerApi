@@ -1,4 +1,3 @@
-using AF.Application;
 using AF.Application.Mapper;
 using AF.Infrastructure.Data;
 using AF.Infrastructure.DependencyInjection;

@@ -22,15 +22,12 @@ namespace AF.Infrastructure.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("AF.Infrastructure.Entities.Booking", b =>
+            modelBuilder.Entity("AF.Domain.Entities.Booking", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
+                    b.Property<int>("CarId")
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int?>("CarId")
+                    b.Property<int>("TenantId")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("EindDatum")
@@ -39,19 +36,14 @@ namespace AF.Infrastructure.Migrations
                     b.Property<DateTime>("StartDatum")
                         .HasColumnType("datetime2");
 
-                    b.Property<int?>("TenantId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("CarId");
+                    b.HasKey("CarId", "TenantId");
 
                     b.HasIndex("TenantId");
 
                     b.ToTable("Bookings");
                 });
 
-            modelBuilder.Entity("AF.Infrastructure.Entities.Car", b =>
+            modelBuilder.Entity("AF.Domain.Entities.Car", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -62,13 +54,13 @@ namespace AF.Infrastructure.Migrations
                     b.Property<string>("Brand")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<byte[]>("CarPicture")
-                        .HasColumnType("varbinary(max)");
-
-                    b.Property<string>("CarPictures")
+                    b.Property<string>("Color")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Color")
+                    b.Property<string>("ImageUrl")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ImageUrls")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int?>("LessorId")
@@ -84,7 +76,7 @@ namespace AF.Infrastructure.Migrations
                     b.ToTable("Cars");
                 });
 
-            modelBuilder.Entity("AF.Infrastructure.Entities.User", b =>
+            modelBuilder.Entity("AF.Domain.Entities.User", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -100,10 +92,10 @@ namespace AF.Infrastructure.Migrations
                     b.Property<string>("Email")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("LastName")
+                    b.Property<string>("FirstName")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Name")
+                    b.Property<string>("LastName")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Password")
@@ -127,49 +119,51 @@ namespace AF.Infrastructure.Migrations
                     b.UseTphMappingStrategy();
                 });
 
-            modelBuilder.Entity("AF.Infrastructure.Entities.Lessor", b =>
+            modelBuilder.Entity("AF.Domain.Entities.Lessor", b =>
                 {
-                    b.HasBaseType("AF.Infrastructure.Entities.User");
+                    b.HasBaseType("AF.Domain.Entities.User");
 
                     b.Property<string>("BtwNr")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasDiscriminator().HasValue("Lessor");
                 });
 
-            modelBuilder.Entity("AF.Infrastructure.Entities.Tenant", b =>
+            modelBuilder.Entity("AF.Domain.Entities.Tenant", b =>
                 {
-                    b.HasBaseType("AF.Infrastructure.Entities.User");
+                    b.HasBaseType("AF.Domain.Entities.User");
 
                     b.Property<string>("StudioName")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasDiscriminator().HasValue("Tenant");
                 });
 
-            modelBuilder.Entity("AF.Infrastructure.Entities.Booking", b =>
+            modelBuilder.Entity("AF.Domain.Entities.Booking", b =>
                 {
-                    b.HasOne("AF.Infrastructure.Entities.Car", null)
+                    b.HasOne("AF.Domain.Entities.Car", null)
                         .WithMany("Bookings")
-                        .HasForeignKey("CarId");
+                        .HasForeignKey("CarId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
-                    b.HasOne("AF.Infrastructure.Entities.Tenant", null)
+                    b.HasOne("AF.Domain.Entities.Tenant", null)
                         .WithMany("Bookings")
-                        .HasForeignKey("TenantId");
+                        .HasForeignKey("TenantId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
-            modelBuilder.Entity("AF.Infrastructure.Entities.Car", b =>
+            modelBuilder.Entity("AF.Domain.Entities.Car", b =>
                 {
-                    b.HasOne("AF.Infrastructure.Entities.Lessor", null)
+                    b.HasOne("AF.Domain.Entities.Lessor", null)
                         .WithMany("Cars")
                         .HasForeignKey("LessorId");
                 });
 
-            modelBuilder.Entity("AF.Infrastructure.Entities.Lessor", b =>
+            modelBuilder.Entity("AF.Domain.Entities.Lessor", b =>
                 {
-                    b.HasOne("AF.Infrastructure.Entities.User", "User")
+                    b.HasOne("AF.Domain.Entities.User", "User")
                         .WithMany()
                         .HasForeignKey("Id")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -178,9 +172,9 @@ namespace AF.Infrastructure.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("AF.Infrastructure.Entities.Tenant", b =>
+            modelBuilder.Entity("AF.Domain.Entities.Tenant", b =>
                 {
-                    b.HasOne("AF.Infrastructure.Entities.User", "User")
+                    b.HasOne("AF.Domain.Entities.User", "User")
                         .WithMany()
                         .HasForeignKey("Id")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -189,17 +183,17 @@ namespace AF.Infrastructure.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("AF.Infrastructure.Entities.Car", b =>
+            modelBuilder.Entity("AF.Domain.Entities.Car", b =>
                 {
                     b.Navigation("Bookings");
                 });
 
-            modelBuilder.Entity("AF.Infrastructure.Entities.Lessor", b =>
+            modelBuilder.Entity("AF.Domain.Entities.Lessor", b =>
                 {
                     b.Navigation("Cars");
                 });
 
-            modelBuilder.Entity("AF.Infrastructure.Entities.Tenant", b =>
+            modelBuilder.Entity("AF.Domain.Entities.Tenant", b =>
                 {
                     b.Navigation("Bookings");
                 });

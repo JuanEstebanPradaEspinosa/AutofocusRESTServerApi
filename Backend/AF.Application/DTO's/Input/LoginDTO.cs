@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AF.Application.DTO.Input
+namespace AF.Application.DTO_s.Input
 {
     public class LoginDTO
     {
