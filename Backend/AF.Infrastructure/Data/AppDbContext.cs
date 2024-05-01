@@ -29,6 +29,9 @@ namespace AF.Infrastructure.Data {
             //Booking having 2 keys
             modelBuilder.Entity<Booking>()
                 .HasKey(b => new { b.CarId, b.TenantId });
+
+            modelBuilder.Entity<Lessor>()
+                .HasMany(l => l.Cars);
         }
     }
 }

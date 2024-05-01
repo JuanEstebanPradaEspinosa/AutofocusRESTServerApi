@@ -57,8 +57,19 @@
           }
         }
       },
+      "System.Linq.Dynamic.Core/1.3.13": {
+        "runtime": {
+          "lib/net8.0/System.Linq.Dynamic.Core.dll": {
+            "assemblyVersion": "1.3.13.0",
+            "fileVersion": "1.3.13.0"
+          }
+        }
+      },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
       "AF.Domain/1.0.0": {
+        "dependencies": {
+          "System.Linq.Dynamic.Core": "1.3.13"
+        },
         "runtime": {
           "AF.Domain.dll": {}
         }
@@ -98,6 +109,13 @@
       "sha512": "sha512-9+PnzmQFfEFNR9J2aDTfJGGupShHjOuGw4VUv+JB044biSHrnmCIMD+mJHmb2H7YryrfBEXDurxQ47gJZdCKNQ==",
       "path": "microsoft.extensions.primitives/6.0.0",
       "hashPath": "microsoft.extensions.primitives.6.0.0.nupkg.sha512"
+    },
+    "System.Linq.Dynamic.Core/1.3.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/RiLoDaNaQCoAXGPkM6HLT/ee0cL2dBaSCwJoIfuuZtmaOquT+bMMCghPj628PjsnuHH1SbfWjFtJdjSk8sO0w==",
+      "path": "system.linq.dynamic.core/1.3.13",
+      "hashPath": "system.linq.dynamic.core.1.3.13.nupkg.sha512"
     },
     "System.Runtime.CompilerServices.Unsafe/6.0.0": {
       "type": "package",

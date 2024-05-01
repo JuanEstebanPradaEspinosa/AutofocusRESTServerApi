@@ -10,3 +10,4 @@ D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Domain\obj\Debug\net8.0\AF.Doma
 D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Domain\obj\Debug\net8.0\refint\AF.Domain.dll
 D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Domain\obj\Debug\net8.0\AF.Domain.pdb
 D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Domain\obj\Debug\net8.0\ref\AF.Domain.dll
+D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Domain\obj\Debug\net8.0\AF.Domain.csproj.AssemblyReference.cache

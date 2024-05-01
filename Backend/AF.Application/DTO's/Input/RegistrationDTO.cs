@@ -16,7 +16,10 @@ namespace AF.Application.DTO_s.Input
         public string? Password { get; set; } = string.Empty;
         [Required, Compare(nameof(Password))]
         public string? ConfirmPassword { get; set; } = string.Empty;
-        public byte[]? ProfilePicture { get; set; }
-        public string? UserType { get; set; }
+        //public byte[]? ProfilePicture { get; set; }
+        [Required]
+        public string? UserType { get; set; } 
+        public string? StudioName { get; set; } //for tenant
+        public string? BtwNr { get; set; } //for the lesser
     }
 }

@@ -9,5 +9,6 @@ namespace AF.Domain.Interfaces
 {
     public interface ICarRepository : IRepository<Car>
     {
+        Task AddCarToLessorAsync(int lessorId, Car entity);
     }
 }

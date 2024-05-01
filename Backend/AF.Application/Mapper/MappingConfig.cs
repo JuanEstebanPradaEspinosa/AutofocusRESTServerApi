@@ -25,6 +25,16 @@ namespace AF.Application.Mapper
             //Booking Mappers
             CreateMap<BookingModel, BookingRESTnormalDTO>().ReverseMap();
             CreateMap<Booking, BookingModel>().ReverseMap();
+
+            //User Mapper
+            CreateMap<User, UserModel>().ReverseMap();
+            CreateMap<UserModel, UserRestnormalDTO>();
+
+            CreateMap<Tenant, TenantModel>().ReverseMap();
+            CreateMap<TenantModel, TenantRESToutputDTO>();
+
+            CreateMap<Lessor, LessorModel>().ReverseMap();
+            CreateMap<LessorModel, LesserRESToutputDTO>();
         }
     }
 }

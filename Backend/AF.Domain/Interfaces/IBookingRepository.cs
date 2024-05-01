@@ -9,5 +9,6 @@ namespace AF.Domain.Interfaces
 {
     public interface IBookingRepository : IRepository<Booking>
     {
+        Task<Booking> GetBookingByIdAsync(int carId, int tenantId);
     }
 }

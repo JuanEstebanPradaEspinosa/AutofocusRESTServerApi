@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SSrEGbdvgjI5r8GW3J2nlI/sNwqWQL6LmzwdkM7Towmw4CfWiocrJjgDWuj4/TOKLxoaegDrTUrwT1ZcjUx+0Q==",
+  "dgSpecHash": "d1kmxOmBtARLlfRWeM9vnrBqySkuTnxKssU8DtMFJb8stnjeJrWx81OvApbsF+LDrFTTiWBgEapoj1QV7VJysg==",
   "success": true,
   "projectFilePath": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.Application\\AF.Application.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\Juane\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Juane\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\Juane\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Juane\\.nuget\\packages\\system.linq.dynamic.core\\1.3.13\\system.linq.dynamic.core.1.3.13.nupkg.sha512",
     "C:\\Users\\Juane\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []

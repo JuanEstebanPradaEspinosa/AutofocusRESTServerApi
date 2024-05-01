@@ -37,5 +37,14 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     }
-  }
+  },
+  "Kestrel": {
+    "Endpoints": {
+      "MyHttpEndpoint": {
+        "Url": "http://localhost:7014"
+      },
+      "MyHttpsEndpoint": {
+        "Url": "http://localhost:8037"
+      }
+    }
 }

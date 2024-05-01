@@ -11,8 +11,15 @@ namespace AF.Infrastructure.Repos
 {
     public class BookingRepository : GenericRepository<Booking>, IBookingRepository
     {
+        private readonly AppDbContext _appDbContext;
         public BookingRepository(AppDbContext appDbContext) : base(appDbContext)
         {
+            _appDbContext = appDbContext;
+        }
+
+        public async Task<Booking> GetBookingByIdAsync(int carId, int tenantId)
+        {
+            return await _appDbContext.Bookings.FindAsync(carId, tenantId); 
         }
     }
 }

@@ -1,7 +1,11 @@
-﻿using AF.Application.Contracts;
+﻿using AF.Application;
+using AF.Application.Contracts;
 using AF.Application.DTO_s.Input;
 using AF.Application.DTO_s.Output;
+using AF.Application.Models;
 using AF.Infrastructure.Repos;
+using AutoMapper;
+using IdentityModel;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,38 +14,98 @@ namespace AF.API.Controllers
     [Route("api/[controller]")]
     [ApiController]
     public class UserController : ControllerBase {
+
         private readonly IUser _user;
-        //private readonly IRepository<User> _userRepository;
-        public UserController(IUser user/*, IRepository<User> repository*/) {
+        private Manager _manager;
+        private IMapper _mapper;
+
+        public UserController(IUser user,Manager manager, IMapper mapper) {
             this._user = user;
-           //this._userRepository = repository;
+            this._manager = manager;
+            this._mapper = mapper;
         }
 
         [HttpPost("login")]
         public async Task<ActionResult<LoginResponse>> LogUserIn(LoginDTO loginDTO) {
-            var result = await _user.LoginUserAsync(loginDTO);
-            return Ok(result);
+            try
+            {
+                var result = await _user.LoginUserAsync(loginDTO);
+                return Ok(result);
+            }
+            catch(Exception ex)
+            {
+                return BadRequest(new { ErrorMessage = ex.Message });
+            }
+
         }
 
         [HttpPost("register")]
         public async Task<ActionResult<RegistrationResponse>> RegisterUserIn(RegistrationDTO registrationDTO) {
-            var result = await _user.RegisterUserAsync(registrationDTO);
-            return Ok(result);
+            try
+            {
+                var result = await _user.RegisterUserAsync(registrationDTO);
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { ErrorMessage = ex.Message });
+            }
+
         }
 
 /*        [HttpGet]
-        public async Task<IActionResult> GetAllUsers() {
+        public async Task<IActionResult> GetAllUsers()
+        {
             var users = await _userRepository.GetAllAsync();
             return Ok(users);
-        }
+        }*/
 
         [HttpGet("{id}")]
-         public async Task<IActionResult> GetUserById(int id) {
-            var user = await _userRepository.GetByIdAsync(id);
-            if (user == null) {
-                return NotFound();
+        public async Task<ActionResult<UserRestnormalDTO>> GetUserById(int id)
+        {
+            try
+            {
+                var user = await _manager.GetUserByIdAsync(id);
+                if (user == null)
+                {
+                    return NotFound();
+                }
+
+                UserRestnormalDTO userDTO;
+                switch (user.GetType().Name.ToLower())
+                {
+                    case "tenantmodel":
+                        userDTO = _mapper.Map<TenantRESToutputDTO>(user);
+                        break;
+                    case "lessormodel":
+                        userDTO = _mapper.Map<LesserRESToutputDTO>(user);
+                        break ;
+                    default:
+                        throw new ArgumentException("This type of user doesn't exist");
+                }
+
+                return Ok(userDTO);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { ErrorMessage = ex.Message });
+            }
         }
-            return Ok(user);
-        }*/
+
+        [HttpDelete]
+        public async Task<ActionResult> RemoveUserAsync(int userId)
+        {
+            try
+            {
+                await _manager.RemoveUserAsync(userId);
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+                throw;
+            }
+
+        }
     }
 }

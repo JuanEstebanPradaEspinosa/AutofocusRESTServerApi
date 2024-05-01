@@ -6,5 +6,5 @@ using System.Threading.Tasks;
 
 namespace AF.Application.DTO_s.Output
 {
-    public record LoginResponse(bool Flag, string Message = null!, string Token = null!) { }
+    public record LoginResponse(bool Flag, int UserId, string Message = null!, string Token = null!) { }
 }
