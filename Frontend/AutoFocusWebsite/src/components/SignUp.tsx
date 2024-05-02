@@ -12,6 +12,14 @@ import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
+import InputLabel from "@mui/material/InputLabel/InputLabel";
+import OutlinedInput from "@mui/material/OutlinedInput/OutlinedInput";
+import InputAdornment from "@mui/material/InputAdornment";
+import IconButton from "@mui/material/IconButton";
+import { Visibility, VisibilityOff } from "@mui/icons-material";
+import FormControl from "@mui/material/FormControl";
+import RadioGroup from "@mui/material/RadioGroup";
+import Radio from "@mui/material/Radio/Radio";
 
 function Copyright(props: any) {
   return (
@@ -23,7 +31,7 @@ function Copyright(props: any) {
     >
       {"Copyright © "}
       <Link color="inherit" href="https://mui.com/">
-        Your Website
+        AutoFocus
       </Link>{" "}
       {new Date().getFullYear()}
       {"."}
@@ -38,10 +46,19 @@ function SignUp() {
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
+    data.forEach((i) => console.log(i));
     console.log({
       email: data.get("email"),
-      password: data.get("password"),
+      password: data.get("outlined-adornment-password"),
     });
+  };
+
+  const [showPassword, setShowPassword] = React.useState(false);
+
+  const handleClickShowPassword = () => setShowPassword((show) => !show);
+
+  const handleMouseDownPassword = (event) => {
+    event.preventDefault();
   };
 
   return (
@@ -64,7 +81,7 @@ function SignUp() {
           </Typography>
           <Box
             component="form"
-            noValidate
+            noValidate //no validation yet
             onSubmit={handleSubmit}
             sx={{ mt: 3 }}
           >
@@ -94,6 +111,16 @@ function SignUp() {
                 <TextField
                   required
                   fullWidth
+                  id="phoneNumber"
+                  label="Phone Number"
+                  name="phoneNumber"
+                  autoComplete="phone-number"
+                />
+              </Grid>
+              <Grid item xs={12}>
+                <TextField
+                  required
+                  fullWidth
                   id="email"
                   label="Email Address"
                   name="email"
@@ -101,15 +128,97 @@ function SignUp() {
                 />
               </Grid>
               <Grid item xs={12}>
-                <TextField
+                <FormControl
+                  sx={{ m: 0, width: "100%" }}
+                  variant="outlined"
+                  required
+                >
+                  <InputLabel htmlFor="outlined-adornment-password">
+                    Password
+                  </InputLabel>
+                  <OutlinedInput
+                    id="outlined-adornment-password"
+                    name="outlined-adornment-password"
+                    autoComplete="new-password"
+                    type={showPassword ? "text" : "password"}
+                    endAdornment={
+                      <InputAdornment position="end">
+                        <IconButton
+                          aria-label="toggle password visibility"
+                          onClick={handleClickShowPassword}
+                          onMouseDown={handleMouseDownPassword}
+                          edge="end"
+                        >
+                          {showPassword ? <VisibilityOff /> : <Visibility />}
+                        </IconButton>
+                      </InputAdornment>
+                    }
+                    label="Password"
+                  />
+                </FormControl>
+              </Grid>
+              <Grid item xs={12}>
+                <FormControl
+                  sx={{ m: 0, width: "100%" }}
+                  variant="outlined"
+                  required
+                >
+                  <InputLabel htmlFor="new-outlined-adornment-password">
+                    Confirm Password
+                  </InputLabel>
+                  <OutlinedInput
+                    id="new-outlined-adornment-password"
+                    name="new-outlined-adornment-password"
+                    autoComplete="new-password"
+                    type={showPassword ? "text" : "password"}
+                    endAdornment={
+                      <InputAdornment position="end">
+                        <IconButton
+                          aria-label="toggle password visibility"
+                          onClick={handleClickShowPassword}
+                          onMouseDown={handleMouseDownPassword}
+                          edge="end"
+                        >
+                          {showPassword ? <VisibilityOff /> : <Visibility />}
+                        </IconButton>
+                      </InputAdornment>
+                    }
+                    label="Confirm Password"
+                  />
+                </FormControl>
+                {/* <TextField
                   required
                   fullWidth
-                  name="password"
-                  label="Password"
+                  name="confirm-password"
+                  label="Confirm Password"
                   type="password"
-                  id="password"
+                  id="confirm-password"
                   autoComplete="new-password"
-                />
+                /> */}
+              </Grid>
+              <Grid item xs={12}>
+                <FormControl sx={{ width: "100%" }}>
+                  <RadioGroup
+                    row
+                    name="row-radio-buttons-group"
+                    sx={{ marginLeft: 2, gap: 8 }}
+                  >
+                    <FormControlLabel
+                      value="tenant"
+                      control={<Radio />}
+                      label="Production House"
+                      id="tenant"
+                      name="tenant"
+                    />
+                    <FormControlLabel
+                      value="lessor"
+                      control={<Radio />}
+                      label="Car Owner"
+                      id="lessor"
+                      name="lessor"
+                    />
+                  </RadioGroup>
+                </FormControl>
               </Grid>
               <Grid item xs={12}>
                 <FormControlLabel
