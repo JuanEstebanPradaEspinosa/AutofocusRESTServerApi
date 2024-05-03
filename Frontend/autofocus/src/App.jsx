@@ -36,13 +36,6 @@ const App = () => {
   return (
     <>
       <CssBaseline />
-      {/* de header van de pagina */}
-      <AppBar position="relative">
-        <Toolbar>
-          <CarRental style={{ marginRight: "20px" }} />
-          <Typography variant="h6">Auto Focus ━ #1 Car rental</Typography>
-        </Toolbar>
-      </AppBar>
       {/* main gedeelte van de applicatie */}
       <main>
         <div>
@@ -125,15 +118,6 @@ const App = () => {
           </Grid>
         </Container>
       </main>
-      <footer style={{ padding: "50px 0" }}>
-        <Typography variant="h6" align="center" gutterBottom>
-          Footer
-        </Typography>
-        <Typography variant="subtitle1" align="center" color="textSecondary">
-          Something here to give the footer some more purpose that just footer.
-          bla bla bla
-        </Typography>
-      </footer>
     </>
   );
 };
