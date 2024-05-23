@@ -1,21 +1,18 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import {
   Typography,
-  AppBar,
   Card,
   CardActions,
   CardContent,
   CardMedia,
   CssBaseline,
   Grid,
-  Toolbar,
   Container,
   Button,
 } from "@mui/material";
-import { CarRental } from "@mui/icons-material";
-import { palette } from "@mui/system";
 
-import { makeStyles } from "@mui/material/styles";
+//import { makeStyles } from "@mui/material/styles";
 
 /*const useStyles = makeStyles((theme) => ({
    container: {
