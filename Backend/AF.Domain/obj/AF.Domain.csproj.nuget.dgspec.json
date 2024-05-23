@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.Domain\\AF.Domain.csproj": {}
+    "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Domain\\AF.Domain.csproj": {}
   },
   "projects": {
-    "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.Domain\\AF.Domain.csproj": {
+    "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Domain\\AF.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.Domain\\AF.Domain.csproj",
+        "projectUniqueName": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Domain\\AF.Domain.csproj",
         "projectName": "AF.Domain",
-        "projectPath": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.Domain\\AF.Domain.csproj",
+        "projectPath": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Domain\\AF.Domain.csproj",
         "packagesPath": "C:\\Users\\Juane\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.Domain\\obj\\",
+        "outputPath": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Juane\\AppData\\Roaming\\NuGet\\NuGet.Config",

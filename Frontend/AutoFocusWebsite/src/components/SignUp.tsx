@@ -201,7 +201,7 @@ function SignUp() {
                   <RadioGroup
                     row
                     name="row-radio-buttons-group"
-                    sx={{ marginLeft: 2, gap: 8 }}
+                    sx={{ justifyContent: "center", gap: 0 }}
                   >
                     <FormControlLabel
                       value="tenant"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d1kmxOmBtARLlfRWeM9vnrBqySkuTnxKssU8DtMFJb8stnjeJrWx81OvApbsF+LDrFTTiWBgEapoj1QV7VJysg==",
+  "dgSpecHash": "9zprbuG/aGLwo7XG1rKFwv9BR4ZVBBirZD3m+lNmGnj/sPAbMHKHLpNkmsHvxEq4E63ZYwXyoP9B9N+fpoUhJQ==",
   "success": true,
-  "projectFilePath": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.Application\\AF.Application.csproj",
+  "projectFilePath": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Application\\AF.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Juane\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Juane\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",

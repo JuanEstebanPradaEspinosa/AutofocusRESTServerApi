@@ -4954,11 +4954,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.Infrastructure\\AF.Infrastructure.csproj",
+      "projectUniqueName": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Infrastructure\\AF.Infrastructure.csproj",
       "projectName": "AF.Infrastructure",
-      "projectPath": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.Infrastructure\\AF.Infrastructure.csproj",
+      "projectPath": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Infrastructure\\AF.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Juane\\.nuget\\packages\\",
-      "outputPath": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.Infrastructure\\obj\\",
+      "outputPath": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Juane\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4975,11 +4975,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.Application\\AF.Application.csproj": {
-              "projectPath": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.Application\\AF.Application.csproj"
+            "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Application\\AF.Application.csproj": {
+              "projectPath": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Application\\AF.Application.csproj"
             },
-            "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.Domain\\AF.Domain.csproj": {
-              "projectPath": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.Domain\\AF.Domain.csproj"
+            "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Domain\\AF.Domain.csproj": {
+              "projectPath": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Domain\\AF.Domain.csproj"
             }
           }
         }
