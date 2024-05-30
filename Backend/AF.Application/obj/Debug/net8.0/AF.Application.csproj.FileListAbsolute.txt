@@ -16,16 +16,32 @@ D:\HOGENT\Projectwerk\AutoFocuas_WebAPI_v3.1\AutoFocus_V3\AF.Application\obj\Deb
 D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Application\bin\Debug\net8.0\AF.Application.deps.json
 D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Application\bin\Debug\net8.0\AF.Application.dll
 D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Application\bin\Debug\net8.0\AF.Application.pdb
-D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Application\bin\Debug\net8.0\AF.Domain.dll
-D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Application\bin\Debug\net8.0\AF.Domain.pdb
-D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Application\obj\Debug\net8.0\AF.Application.csproj.AssemblyReference.cache
 D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Application\obj\Debug\net8.0\AF.Application.GeneratedMSBuildEditorConfig.editorconfig
 D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Application\obj\Debug\net8.0\AF.Application.AssemblyInfoInputs.cache
 D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Application\obj\Debug\net8.0\AF.Application.AssemblyInfo.cs
 D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Application\obj\Debug\net8.0\AF.Application.csproj.CoreCompileInputs.cache
 D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Application\obj\Debug\net8.0\AF.Application.sourcelink.json
-D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Application\obj\Debug\net8.0\AF.Appli.CB51D3EF.Up2Date
 D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Application\obj\Debug\net8.0\AF.Application.dll
 D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Application\obj\Debug\net8.0\refint\AF.Application.dll
 D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Application\obj\Debug\net8.0\AF.Application.pdb
 D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Application\obj\Debug\net8.0\ref\AF.Application.dll
+D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Application\bin\Debug\net8.0\AF.Domain.dll
+D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Application\bin\Debug\net8.0\AF.Domain.pdb
+D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Application\obj\Debug\net8.0\AF.Application.csproj.AssemblyReference.cache
+D:\ProjectWerk\AutofocusRESTServerApi\Backend\AF.Application\obj\Debug\net8.0\AF.Appli.CB51D3EF.Up2Date
+D:\ProjectWerk\AutofocusRESTServerApi -DDD\Backend\AF.Application\bin\Debug\net8.0\AF.Application.deps.json
+D:\ProjectWerk\AutofocusRESTServerApi -DDD\Backend\AF.Application\bin\Debug\net8.0\AF.Application.dll
+D:\ProjectWerk\AutofocusRESTServerApi -DDD\Backend\AF.Application\bin\Debug\net8.0\AF.Application.pdb
+D:\ProjectWerk\AutofocusRESTServerApi -DDD\Backend\AF.Application\bin\Debug\net8.0\AF.Domain.dll
+D:\ProjectWerk\AutofocusRESTServerApi -DDD\Backend\AF.Application\bin\Debug\net8.0\AF.Domain.pdb
+D:\ProjectWerk\AutofocusRESTServerApi -DDD\Backend\AF.Application\obj\Debug\net8.0\AF.Application.csproj.AssemblyReference.cache
+D:\ProjectWerk\AutofocusRESTServerApi -DDD\Backend\AF.Application\obj\Debug\net8.0\AF.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectWerk\AutofocusRESTServerApi -DDD\Backend\AF.Application\obj\Debug\net8.0\AF.Application.AssemblyInfoInputs.cache
+D:\ProjectWerk\AutofocusRESTServerApi -DDD\Backend\AF.Application\obj\Debug\net8.0\AF.Application.AssemblyInfo.cs
+D:\ProjectWerk\AutofocusRESTServerApi -DDD\Backend\AF.Application\obj\Debug\net8.0\AF.Application.csproj.CoreCompileInputs.cache
+D:\ProjectWerk\AutofocusRESTServerApi -DDD\Backend\AF.Application\obj\Debug\net8.0\AF.Application.sourcelink.json
+D:\ProjectWerk\AutofocusRESTServerApi -DDD\Backend\AF.Application\obj\Debug\net8.0\AF.Appli.CB51D3EF.Up2Date
+D:\ProjectWerk\AutofocusRESTServerApi -DDD\Backend\AF.Application\obj\Debug\net8.0\AF.Application.dll
+D:\ProjectWerk\AutofocusRESTServerApi -DDD\Backend\AF.Application\obj\Debug\net8.0\refint\AF.Application.dll
+D:\ProjectWerk\AutofocusRESTServerApi -DDD\Backend\AF.Application\obj\Debug\net8.0\AF.Application.pdb
+D:\ProjectWerk\AutofocusRESTServerApi -DDD\Backend\AF.Application\obj\Debug\net8.0\ref\AF.Application.dll

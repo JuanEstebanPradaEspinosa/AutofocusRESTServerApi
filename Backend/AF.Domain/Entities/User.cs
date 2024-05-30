@@ -1,18 +1,17 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+﻿
 
-namespace AF.Domain.Entities {
-    public partial class User {
-        [Key]
+namespace AF.Domain.Entities
+{
+    public abstract class User {
         public int Id { get; set; }
-        public string? Name { get; set; }
+        public string? FirstName { get; set; }
         public string? LastName { get; set; }
         public string? Password { get; set; }
         public string? Email { get; set; }
         public string? PhoneNumber { get; set; }
         public byte[]? ProfilePicture { get; set; }
         //[NotMapped]
-        public string? UserType { get; set; }
+        //public string? UserType { get; set; } //best gebruik van enums om dit te realiseren
         /*Bij UserType zat ik te denken, tijdens het registreren heeft de gebruiker normaal de keuze om aan
          te duiden of hij/zij een huurder of verhuurder is... de waarde uit de (mogelijkse) dropdown box kan dan
         gebruikt worden om bij UserType te zetten. 

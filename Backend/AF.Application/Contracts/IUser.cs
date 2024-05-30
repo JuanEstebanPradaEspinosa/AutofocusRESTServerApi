@@ -1,5 +1,5 @@
-﻿using AF.Application.DTO.Input;
-using AF.Application.DTO.Output;
+﻿using AF.Application.DTO_s.Input;
+using AF.Application.DTO_s.Output;
 
 namespace AF.Application.Contracts
 {

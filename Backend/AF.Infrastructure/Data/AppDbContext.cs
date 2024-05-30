@@ -12,9 +12,9 @@ namespace AF.Infrastructure.Data {
         public DbSet<Booking> Bookings { get; set; }
         public DbSet<Tenant> Tenants { get; set; }
         public DbSet<Lessor> Lessors { get; set; }
-
         protected override void OnModelCreating(ModelBuilder modelBuilder) {
-            // Relatie tussen Tenant en User
+            // Relatie tussen User en cars + User and bookings
+            //TODO:
             modelBuilder.Entity<Tenant>()
                 .HasOne(t => t.User)
                 .WithMany()
@@ -25,6 +25,13 @@ namespace AF.Infrastructure.Data {
                 .HasOne(l => l.User)
                 .WithMany()
                 .HasForeignKey(l => l.Id); // gebruikers-ID wordt geërfd van de User-klasse
+
+            //Booking having 2 keys
+            modelBuilder.Entity<Booking>()
+                .HasKey(b => new { b.CarId, b.TenantId });
+
+            modelBuilder.Entity<Lessor>()
+                .HasMany(l => l.Cars);
         }
     }
 }

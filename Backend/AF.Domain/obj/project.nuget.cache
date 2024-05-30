@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "+vmEd/DZ93ZP2cJbhRqjC4qV7iB4IPKIXiTIlmAN0wr5Gddv27pUpE0aR/YbJ+PLS00FVPGqQnaDssvxUcFG9w==",
+  "dgSpecHash": "Vz6Bbzxq1EYBtbsgzGSMKxl5Ijyq74kVqGXsUT9AKwxPl1oViqV+DMf6weoMrU7R7OfxKgUM6wVUCytMiWAyhw==",
   "success": true,
-  "projectFilePath": "D:\\ProjectWerk\\AutofocusRESTServerApi\\Backend\\AF.Domain\\AF.Domain.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Domain\\AF.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Juane\\.nuget\\packages\\system.linq.dynamic.core\\1.3.13\\system.linq.dynamic.core.1.3.13.nupkg.sha512"
+  ],
   "logs": []
 }
