@@ -11,13 +11,15 @@ import {
 import { PhotoCamera, Close } from "@mui/icons-material";
 
 function RentCarPage({ open, onClose, onSubmit }) {
-  const [carInfo, setCarInfo] = useState({
+  const initialCarInfo = {
     brand: "",
     model: "",
     year: "",
     color: "",
-    imageUrl: "",
-  });
+    imageUrls: [],
+  };
+
+  const [carInfo, setCarInfo] = useState(initialCarInfo);
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -28,20 +30,32 @@ function RentCarPage({ open, onClose, onSubmit }) {
   };
 
   const handleImageUpload = (e) => {
-    const file = e.target.files[0];
-    const reader = new FileReader();
-    reader.onload = () => {
-      setCarInfo({
-        ...carInfo,
-        imageUrl: reader.result,
-      });
-    };
-    reader.readAsDataURL(file);
+    const files = e.target.files;
+    const newImageUrls = [...carInfo.imageUrls];
+
+    if (files.length > 0) {
+      for (let i = 0; i < files.length; i++) {
+        if (newImageUrls.length >= 5) break;
+        const file = files[i];
+        const reader = new FileReader();
+        reader.onload = () => {
+          newImageUrls.push(reader.result);
+          if (newImageUrls.length <= 5) {
+            setCarInfo({
+              ...carInfo,
+              imageUrls: newImageUrls,
+            });
+          }
+        };
+        reader.readAsDataURL(file);
+      }
+    }
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
     onSubmit(carInfo);
+    setCarInfo(initialCarInfo); // Clear inputs after submitting
     onClose();
   };
 
@@ -88,20 +102,28 @@ function RentCarPage({ open, onClose, onSubmit }) {
             type="file"
             style={{ display: "none" }}
             onChange={handleImageUpload}
+            multiple
           />
           <label htmlFor="icon-button-file">
             <IconButton color="primary" component="span">
               <PhotoCamera />
             </IconButton>
-            Upload Image
+            Upload Images (max 5)
           </label>
-          {carInfo.imageUrl && (
-            <img
-              src={carInfo.imageUrl}
-              alt="Car"
-              style={{ width: "100%", marginTop: "10px", borderRadius: "5px" }}
-            />
-          )}
+          <div style={{ display: "flex", flexWrap: "wrap", marginTop: "10px" }}>
+            {carInfo.imageUrls.map((url, index) => (
+              <img
+                key={index}
+                src={url}
+                alt={`Car ${index + 1}`}
+                style={{
+                  width: "48%",
+                  margin: "1%",
+                  borderRadius: "5px",
+                }}
+              />
+            ))}
+          </div>
         </form>
       </DialogContent>
       <DialogActions>

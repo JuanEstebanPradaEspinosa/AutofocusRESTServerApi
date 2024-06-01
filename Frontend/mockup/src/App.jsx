@@ -1,75 +1,16 @@
 import React from "react";
 import { useState } from "react";
-import {
-  Typography,
-  CssBaseline,
-  Grid,
-  Container,
-  IconButton,
-} from "@mui/material";
+import { Typography, Container } from "@mui/material";
 
-import { Add } from "@mui/icons-material";
-
-import Header from "./components/Header";
-import Footer from "./components/Footer";
 import CardsContainer from "./components/CardsContainer";
-//import DetailsDialog from "./components/DetailsDialog";
-// import MessageDialog from "./components/MessageDialog";
-import RentCarPage from "./components/RentCarPage";
-import CarCatalog from "./components/CarCatalog";
-//import ContactListPage from "./components/chat/ContactListPage";
 
 const App = () => {
-  const [openRentCarDialog, setOpenRentCarDialog] = useState(false);
-  const [cars, setCars] = useState([]); // Houd een lijst bij van toegevoegde auto's
-
-  const handleOpenRentCarDialog = () => {
-    setOpenRentCarDialog(true);
-  };
-
-  const handleCloseRentCarDialog = () => {
-    setOpenRentCarDialog(false);
-  };
-
-  const handleAddCar = (carInfo) => {
-    const updatedCars = [...cars, carInfo];
-    setCars(updatedCars);
-    console.log("Adding car:", carInfo);
-    console.log("Cars:", updatedCars);
-  };
-
-  const handleSelectCar = (selectedCar) => {
-    console.log("Selected car:", selectedCar);
-  };
+  const [watchlist, setWatchlist] = useState([]);
 
   return (
     <>
-      <CssBaseline />
-      {/* de header van de pagina */}
-      <Header />
-
       {/* Hier zorgen we ervoor dat een gebruiker een auto kan toevoegen zegmaar aan zijn catalogus */}
-      <div>
-        <Grid container spacing={2} alignItems="center">
-          <Grid item>
-            <IconButton onClick={handleOpenRentCarDialog} color="primary">
-              <Add />
-            </IconButton>
-          </Grid>
-          <Grid item xs={6}></Grid> {/* Placeholder for spacing */}
-          <Grid item xs={5} container justifyContent="flex-end"></Grid>
-        </Grid>
-        <RentCarPage
-          open={openRentCarDialog}
-          onClose={handleCloseRentCarDialog}
-          onSubmit={handleAddCar}
-        />
-        {cars.length > 0 && (
-          <div style={{ marginTop: "20px" }}>
-            <CarCatalog cars={cars} onSelectCar={handleSelectCar} />
-          </div>
-        )}
-      </div>
+
       {/* main gedeelte van de applicatie */}
       <main>
         <div style={{ padding: "20px" }}>
@@ -90,9 +31,9 @@ const App = () => {
           </Container>
         </div>
         {/* container voor onze 'Cards" */}
-        <CardsContainer />
+        {/* <CardsContainer /> */}
+        <CardsContainer watchlist={watchlist} setWatchlist={setWatchlist} />
       </main>
-      <Footer />
     </>
   );
 };

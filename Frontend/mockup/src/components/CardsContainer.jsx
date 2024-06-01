@@ -1,4 +1,5 @@
 import React from "react";
+import { useContext } from "react";
 import {
   Typography,
   Container,
@@ -7,13 +8,28 @@ import {
   CardActions,
   CardMedia,
   CardContent,
+  IconButton,
 } from "@mui/material";
+import BookmarkBorderIcon from "@mui/icons-material/BookmarkBorder";
+import BookmarkIcon from "@mui/icons-material/Bookmark";
+
 import DetailsDialog from "./DetailsDialog";
 import MessageDialog from "./MessageDialog";
+import WatchlistContext from "../pages/context/WatchlistContext";
 
 const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 
 const CardsContainer = () => {
+  const { watchlist, setWatchlist } = useContext(WatchlistContext);
+
+  const handleToggleBookmark = (card) => {
+    if (watchlist.includes(card)) {
+      setWatchlist(watchlist.filter((item) => item !== card));
+    } else {
+      setWatchlist([...watchlist, card]);
+    }
+  };
+
   return (
     <Container style={{ padding: "20px 0" }} maxWidth="md">
       <Grid container spacing={4}>
@@ -35,7 +51,7 @@ const CardsContainer = () => {
               />
               <CardContent style={{ flexGrow: 1 }}>
                 <Typography gutterBottom variant="h5">
-                  Heading
+                  Heading {card}
                 </Typography>
                 <Typography>
                   Je kan deze sectie gebruiken om de content van de card te
@@ -43,14 +59,15 @@ const CardsContainer = () => {
                 </Typography>
               </CardContent>
               <CardActions>
-                {/* <Button size="small" color="primary">
-                      View details
-                    </Button> */}
                 <DetailsDialog imageUrl="https://source.unsplash.com/random?car" />
                 <MessageDialog imageUrl="https://source.unsplash.com/random?" />
-                {/* <Button size="small" color="primary" endIcon={<Send />}>
-                      Send message
-                    </Button> */}
+                <IconButton onClick={() => handleToggleBookmark(card)}>
+                  {watchlist.includes(card) ? (
+                    <BookmarkIcon color="primary" />
+                  ) : (
+                    <BookmarkBorderIcon color="primary" />
+                  )}
+                </IconButton>
               </CardActions>
             </Card>
           </Grid>
