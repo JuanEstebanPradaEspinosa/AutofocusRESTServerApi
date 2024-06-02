@@ -15,7 +15,7 @@ import BookmarkIcon from "@mui/icons-material/Bookmark";
 
 import DetailsDialog from "./DetailsDialog";
 import MessageDialog from "./MessageDialog";
-import WatchlistContext from "../pages/context/WatchlistContext";
+import WatchlistContext from "../context/WatchlistContext";
 
 const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 

@@ -7,9 +7,9 @@ import MyCollectionPage from "./pages/MyCollectionPage";
 import WatchListPage from "./pages/WatchListPage";
 import AboutUsPage from "./pages/AboutUsPage";
 import RootLayout from "./layout/RootLayout";
-import { WatchlistProvider } from "./pages/context/WatchlistContext";
+import { WatchlistProvider } from "./context/WatchlistContext";
 import ProjectsPage from "./pages/ProjectsPage";
-
+import "./index.css";
 const router = createBrowserRouter([
   {
     element: <RootLayout />,
