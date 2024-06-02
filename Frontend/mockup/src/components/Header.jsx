@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import { Link } from "react-router-dom";
 import { useState } from "react";
@@ -32,14 +33,21 @@ const Header = () => {
   const isMatch = useMediaQuery(theme.breakpoints.down("md"));
   console.log(isMatch);
   return (
-    <AppBar position="relative" style={{ width: "auto" }}>
+    <AppBar
+      position="relative"
+      sx={{
+        backgroundColor: "black",
+      }}
+    >
       <Toolbar>
         <IconButton component={Link} to="/" color="inherit">
           <CarRental />
         </IconButton>
         {isMatch ? (
           <>
-            <Typography variant="h5">Auto Focus</Typography>
+            <Typography variant="h5" sx={{ flexGrow: 1 }}>
+              Auto Focus
+            </Typography>
             <DrawerComp />
           </>
         ) : (
@@ -48,6 +56,7 @@ const Header = () => {
               textColor="inherit"
               value={value}
               onChange={(e, value) => setValue(value)}
+              sx={{ flexGrow: 1 }}
             >
               {PAGES.map((page, index) => (
                 <Tab
@@ -55,10 +64,11 @@ const Header = () => {
                   label={page}
                   component={Link}
                   to={`/${page.toLowerCase().replace(/ /g, "-")}`}
+                  sx={{ textTransform: "capitalize" }} // Add styling here
                 />
               ))}
             </Tabs>
-            <div style={{ marginLeft: "auto", display: "flex", gap: "10px" }}>
+            <div className="ml-auto flex gap-5">
               <LoginDialog />
               <RegisterDialog />
             </div>
