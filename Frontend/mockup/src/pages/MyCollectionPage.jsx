@@ -60,7 +60,7 @@ const MyCollectionPage = () => {
               Your collection is empty.
             </Typography>
             <Typography variant="body1" color="textSecondary">
-              Add cars to your collection by clicking on the 'Add' button.
+              Add cars to your collection by clicking on the Add button.
             </Typography>
           </Box>
         ) : (

@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useState } from "react";
 import {
   Button,
@@ -9,7 +10,7 @@ import {
   Link,
   TextField,
 } from "@mui/material";
-import LoginDialog from "./LoginDialog";
+//import LoginDialog from "./LoginDialog";
 
 export default function RegisterDialog() {
   const [open, setOpen] = useState(false);

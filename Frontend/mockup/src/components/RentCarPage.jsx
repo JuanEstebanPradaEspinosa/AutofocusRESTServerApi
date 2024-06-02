@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useState } from "react";
 import {
   Dialog,
@@ -10,6 +11,7 @@ import {
 } from "@mui/material";
 import { PhotoCamera, Close } from "@mui/icons-material";
 
+// eslint-disable-next-line react/prop-types
 function RentCarPage({ open, onClose, onSubmit }) {
   const initialCarInfo = {
     brand: "",

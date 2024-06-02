@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import { Box, Container, Typography, Link, Grid } from "@mui/material";
 import { Facebook, Instagram, X } from "@mui/icons-material";
