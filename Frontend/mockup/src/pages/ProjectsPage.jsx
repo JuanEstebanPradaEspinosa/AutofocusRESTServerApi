@@ -68,6 +68,9 @@ const ProjectAccordion = () => {
     <Container style={{ padding: "20px 0" }} maxWidth="md">
       <Typography variant="h4" gutterBottom>
         Huidige projecten:
+        <Typography variant="h5">
+          Send help please, IDF******K wat we hier moeten doen 🤯
+        </Typography>
       </Typography>
       <Box
         display="flex"
