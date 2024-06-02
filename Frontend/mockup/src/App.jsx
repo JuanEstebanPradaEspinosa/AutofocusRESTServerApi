@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Typography, Container } from "@mui/material";
 
 import CardsContainer from "./components/CardsContainer";
+import SearchBar from "./components/SearchBar";
 
 const App = () => {
   const [watchlist, setWatchlist] = useState([]);
@@ -21,7 +22,7 @@ const App = () => {
               color="textPrimary"
               gutterBottom
             >
-              Car Rental
+              Auto Focus
             </Typography>
             <Typography variant="h6" align="center" color="textSecondary">
               This is a longer paragraph wich is actually a Typography that is a
@@ -31,6 +32,8 @@ const App = () => {
           </Container>
         </div>
         {/* container voor onze 'Cards" */}
+        {/* Searchbar met autocomplete functionaliteit (altans dat is de bedoeling)*/}
+        <SearchBar />
         {/* <CardsContainer /> */}
         <CardsContainer watchlist={watchlist} setWatchlist={setWatchlist} />
       </main>

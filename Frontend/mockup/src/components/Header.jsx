@@ -16,7 +16,13 @@ import {
 } from "@mui/material";
 import { CarRental } from "@mui/icons-material";
 
-const PAGES = ["Contacts", "My Collection", "Watchlist", "About Us"];
+const PAGES = [
+  "Contacts",
+  "My Collection",
+  "Watchlist",
+  "About Us",
+  "Projects",
+];
 
 const Header = () => {
   const [value, setValue] = useState();
