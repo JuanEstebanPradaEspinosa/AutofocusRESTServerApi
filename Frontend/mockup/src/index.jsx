@@ -9,13 +9,15 @@ import AboutUsPage from "./pages/AboutUsPage";
 import RootLayout from "./layout/RootLayout";
 import { WatchlistProvider } from "./context/WatchlistContext";
 import ProjectsPage from "./pages/ProjectsPage";
-import "./index.css";
 import AuthPage from "./pages/AuthPage";
+import ErrorPage from "./pages/ErrorPage";
+import "./index.css";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <RootLayout />,
+    errorElement: <ErrorPage />,
     children: [
       { index: true, element: <App /> },
       { path: "/contacts", element: <ContactsPage /> },
