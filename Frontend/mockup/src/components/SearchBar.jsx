@@ -1,5 +1,6 @@
 import React from "react";
-import { Autocomplete, Box, TextField } from "@mui/material";
+import { useState } from "react";
+import { Autocomplete, Box, TextField, Grid } from "@mui/material";
 
 // MOCK DATA VAN AUTOS
 const top50cars = [
@@ -56,26 +57,60 @@ const top50cars = [
 
 const SearchBar = () => {
   return (
-    <>
-      <Box display="flex" justifyContent="center" alignItems="center">
-        <Box width="50%">
-          <Autocomplete
-            multiple
-            id="tags-standard"
-            options={top50cars}
-            getOptionLabel={(option) => option.title}
-            renderInput={(params) => (
-              <TextField
-                {...params}
-                variant="standard"
-                label="Search for your desires"
-                placeholder="Type here"
-              />
-            )}
-          />
-        </Box>
+    <Box display="flex" justifyContent="center" alignItems="center" mt={2}>
+      <Box width="90%">
+        <Grid container spacing={2}>
+          <Grid item xs={12} sm={4}>
+            <Autocomplete
+              multiple
+              id="model-search"
+              options={top50cars}
+              getOptionLabel={(option) => option.model}
+              renderInput={(params) => (
+                <TextField
+                  {...params}
+                  variant="standard"
+                  label="Search by Model"
+                  placeholder="Type here"
+                />
+              )}
+            />
+          </Grid>
+          <Grid item xs={12} sm={4}>
+            <Autocomplete
+              multiple
+              id="brand-search"
+              options={top50cars}
+              getOptionLabel={(option) => option.brand}
+              renderInput={(params) => (
+                <TextField
+                  {...params}
+                  variant="standard"
+                  label="Search by Brand"
+                  placeholder="Type here"
+                />
+              )}
+            />
+          </Grid>
+          <Grid item xs={12} sm={4}>
+            <Autocomplete
+              multiple
+              id="year-search"
+              options={top50cars}
+              getOptionLabel={(option) => option.year}
+              renderInput={(params) => (
+                <TextField
+                  {...params}
+                  variant="standard"
+                  label="Search by Year"
+                  placeholder="Type here"
+                />
+              )}
+            />
+          </Grid>
+        </Grid>
       </Box>
-    </>
+    </Box>
   );
 };
 
