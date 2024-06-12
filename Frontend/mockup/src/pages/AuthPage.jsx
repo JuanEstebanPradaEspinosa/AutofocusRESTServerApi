@@ -1,8 +1,8 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import { useLocation } from "react-router-dom";
-import SignIn from "../components/SignIn";
-import SignUp from "../components/SignUp";
+import SignIn from "../components/AuthPage/SignIn";
+import SignUp from "../components/AuthPage/SignUp";
 
 const LoginPage = () => {
   const location = useLocation();

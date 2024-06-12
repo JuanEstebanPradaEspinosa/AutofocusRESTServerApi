@@ -23,6 +23,7 @@ const PAGES = [
   "Watchlist",
   "About Us",
   "Projects",
+  "Wall",
 ];
 
 const Header = () => {
