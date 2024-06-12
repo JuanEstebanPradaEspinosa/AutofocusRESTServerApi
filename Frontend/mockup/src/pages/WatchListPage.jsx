@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useContext } from "react";
 import {
   Container,
@@ -9,7 +10,7 @@ import {
   IconButton,
   Box,
 } from "@mui/material";
-import WatchlistContext from "./context/WatchlistContext";
+import WatchlistContext from "../context/WatchlistContext";
 import { BookmarkRemove } from "@mui/icons-material";
 
 const WatchListPage = () => {
