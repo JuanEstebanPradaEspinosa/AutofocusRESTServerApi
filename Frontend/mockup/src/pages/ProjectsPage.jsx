@@ -70,7 +70,7 @@ const ProjectAccordion = () => {
       <Typography variant="h4" gutterBottom>
         Huidige projecten:
         <Typography variant="h5">
-          Send help please, IDF******K wat we hier moeten doen 🤯
+          Onderhoudt een duidelijk overzicht over uw projecten
         </Typography>
       </Typography>
       <Box

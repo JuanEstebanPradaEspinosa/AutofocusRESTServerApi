@@ -9,7 +9,7 @@ import {
   TextField,
   Link,
 } from "@mui/material";
-import RegisterDialog from "./RegisterDialog"; // Importeer de RegisterDialog component
+//import RegisterDialog from "./RegisterDialog"; // Importeer de RegisterDialog component
 
 export default function LoginDialog() {
   const [open, setOpen] = useState(false);

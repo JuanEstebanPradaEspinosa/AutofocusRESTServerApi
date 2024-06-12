@@ -44,7 +44,7 @@ const App = () => {
               color="inherit"
               gutterBottom
             >
-              Auto Focus
+              AutoFocus
             </Typography>
             <Typography variant="h6" align="center" color="inherit">
               This is a longer paragraph which is actually a Typography that is
@@ -52,12 +52,12 @@ const App = () => {
               sentence is long enough. bla bla bla
             </Typography>
           </Container>
-          {/* Searchbar met autocomplete functionaliteit (althans dat is de bedoeling)*/}
+          {/* Searchbar met autocomplete functionaliteit (altans dat is de bedoeling)*/}
         </div>
         <div style={{ padding: "20px" }}>
           <SearchBar />
         </div>
-        {/* container voor onze 'Cards" */}
+        {/* container voor onze 'Cards' */}
         <CardsContainer watchlist={watchlist} setWatchlist={setWatchlist} />
       </main>
     </>

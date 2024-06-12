@@ -15,6 +15,7 @@ const PAGES = [
   "Contacts",
   "My Collection",
   "Watchlist",
+  "Wall",
   "About Us",
   "Login",
   "Register",

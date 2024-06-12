@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 import ContactsPage from "./pages/ContactsPage";
+import WallPage from "./pages/WallPage";
 import MyCollectionPage from "./pages/MyCollectionPage";
 import WatchListPage from "./pages/WatchListPage";
 import AboutUsPage from "./pages/AboutUsPage";
@@ -15,6 +16,7 @@ const router = createBrowserRouter([
     element: <RootLayout />,
     children: [
       { path: "/", element: <App /> },
+      { path: "/wall", element: <WallPage /> },
       { path: "/contacts", element: <ContactsPage /> },
       { path: "/my-collection", element: <MyCollectionPage /> },
       { path: "/watchlist", element: <WatchListPage /> },
