@@ -20,12 +20,8 @@ const router = createBrowserRouter([
     element: <RootLayout />,
     errorElement: <ErrorPage />,
     children: [
-<<<<<<< HEAD
       { index: true, element: <App /> },
-=======
-      { path: "/", element: <App /> },
       { path: "/wall", element: <WallPage /> },
->>>>>>> ffcb25be046363e4ccb1f0527af2188d5f519bff
       { path: "/contacts", element: <ContactsPage /> },
       { path: "/my-collection", element: <MyCollectionPage /> },
       { path: "/watchlist", element: <WatchListPage /> },

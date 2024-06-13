@@ -12,6 +12,7 @@ import {
 } from "@mui/material";
 import { Info } from "@mui/icons-material";
 
+// eslint-disable-next-line react/prop-types
 export default function DetailDialog({ imageUrl }) {
   const [open, setOpen] = useState(false);
 

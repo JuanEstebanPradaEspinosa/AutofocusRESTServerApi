@@ -47,7 +47,7 @@ export default function MessageDialog({ imageUrl }) {
         maxWidth="sm"
         height="240px"
       >
-        <DialogTitle>Let them know you're interested</DialogTitle>
+        <DialogTitle>Let them know you&apos;re interested</DialogTitle>
         <DialogContent>
           <Grid container spacing={1} alignItems="center">
             {imageUrl && (

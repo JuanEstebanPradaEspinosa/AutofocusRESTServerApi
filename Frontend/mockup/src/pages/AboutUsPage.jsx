@@ -1,24 +1,18 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import { Box, Typography } from "@mui/material";
+import HeroSection from "../components/PageSections/HeroSection";
+import FeatureSection from "../components/PageSections/FeatureSection";
+import HeaderSection from "../components/PageSections/HeaderSection";
+import Stats from "../components/Stats";
 
 const AboutUsPage = () => {
   return (
-    <Box
-      display="flex"
-      justifyContent="center"
-      alignItems="center"
-      minHeight="60vh"
-      flexDirection="column"
-      textAlign="center"
-    >
-      <Typography variant="h6" color="textSecondary">
-        No insperation...
-      </Typography>
-      <Typography variant="body1" color="textSecondary">
-        At least, this is where you can tell about you website/services.
-      </Typography>
-    </Box>
+    <div>
+      <HeroSection />
+      <FeatureSection />
+      <HeaderSection />
+      <Stats />
+    </div>
   );
 };
 

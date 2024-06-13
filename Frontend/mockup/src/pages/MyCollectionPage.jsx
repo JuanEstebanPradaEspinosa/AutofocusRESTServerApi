@@ -3,7 +3,7 @@ import React from "react";
 import { useState } from "react";
 import { Container, Typography, Box, Grid, IconButton } from "@mui/material";
 import { Add } from "@mui/icons-material";
-import RentCarPage from "../components/RentCarPage";
+import RentCarPage from "../components/AddCarPage";
 import CarCatalog from "../components/CarCatalog";
 
 const MyCollectionPage = () => {

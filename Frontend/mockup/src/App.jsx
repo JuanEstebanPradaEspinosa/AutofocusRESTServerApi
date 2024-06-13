@@ -1,15 +1,18 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useState } from "react";
 import { Typography, Container } from "@mui/material";
 import CardsContainer from "./components/CardsContainer";
 import SearchBar from "./components/SearchBar";
 import autofocusBanner from "./images/why-kei-8e2gal_GIE8-unsplash.jpg";
+import NewsLetterSection from "./components/PageSections/NewsLetterSection";
+import PricingSection from "./components/PageSections/PricingSection";
+import Testimonials from "./components/Testimonials";
 
 const App = () => {
   const [watchlist, setWatchlist] = useState([]);
 
   return (
     <>
-      {/* main gedeelte van de applicatie */}
       <main>
         <div
           style={{
@@ -51,14 +54,29 @@ const App = () => {
               a fancy word for any text related element from HTML. I think the
               sentence is long enough. bla bla bla
             </Typography>
+            <div className="mt-10 flex items-center justify-center gap-x-6">
+              <a
+                href="#"
+                className="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
+              >
+                Get started
+              </a>
+              <a
+                href="#"
+                className="text-sm font-semibold leading-6 text-white hover:text-blue-500"
+              >
+                Learn more <span aria-hidden="true">→</span>
+              </a>
+            </div>
           </Container>
-          {/* Searchbar met autocomplete functionaliteit (altans dat is de bedoeling)*/}
         </div>
         <div style={{ padding: "20px" }}>
           <SearchBar />
         </div>
-        {/* container voor onze 'Cards' */}
         <CardsContainer watchlist={watchlist} setWatchlist={setWatchlist} />
+        <NewsLetterSection />
+        <PricingSection />
+        <Testimonials />
       </main>
     </>
   );
