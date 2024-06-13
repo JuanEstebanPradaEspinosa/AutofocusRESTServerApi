@@ -4954,11 +4954,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Infrastructure\\AF.Infrastructure.csproj",
+      "projectUniqueName": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Infrastructure\\AF.Infrastructure.csproj",
       "projectName": "AF.Infrastructure",
-      "projectPath": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Infrastructure\\AF.Infrastructure.csproj",
+      "projectPath": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Infrastructure\\AF.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Juane\\.nuget\\packages\\",
-      "outputPath": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Infrastructure\\obj\\",
+      "outputPath": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Juane\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4975,11 +4975,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Application\\AF.Application.csproj": {
-              "projectPath": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Application\\AF.Application.csproj"
+            "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Application\\AF.Application.csproj": {
+              "projectPath": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Application\\AF.Application.csproj"
             },
-            "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Domain\\AF.Domain.csproj": {
-              "projectPath": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Domain\\AF.Domain.csproj"
+            "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Domain\\AF.Domain.csproj": {
+              "projectPath": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Domain\\AF.Domain.csproj"
             }
           }
         }
@@ -5054,7 +5054,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

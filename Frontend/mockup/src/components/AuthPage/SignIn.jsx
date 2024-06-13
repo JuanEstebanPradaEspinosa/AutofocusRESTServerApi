@@ -1,8 +1,9 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { FaCar } from "react-icons/fa";
+import UserService from "../../api/UserService";
 import * as Yup from "yup";
 
 const SignIn = () => {
@@ -12,7 +13,7 @@ const SignIn = () => {
     password: "",
   };
 
-  //const navigate = useNavigate();
+  const navigate = useNavigate();
 
   const handleSubmit = (values, { resetForm }) => {
     // Handle form submission here
@@ -23,13 +24,18 @@ const SignIn = () => {
     };
 
     console.log(userCredentials);
-    resetForm();
-    // dispatch(loginUser(userCredentials)).then((res) => {
-    //   if (res.payload) {
-    //     resetForm();
-    //     navigate("/");
-    //   }
-    // });
+    UserService.login(userCredentials)
+      .then((response) => {
+        // Handle successful login here
+        console.log(response);
+        // Redirect to main homepage
+        resetForm();
+        navigate("/");
+      })
+      .catch((error) => {
+        // Handle login error here
+        console.error(error);
+      });
   };
 
   const validationSchema = Yup.object().shape({

@@ -6,6 +6,7 @@ using AF.Application.Models;
 using AF.Infrastructure.Repos;
 using AutoMapper;
 using IdentityModel;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -26,6 +27,7 @@ namespace AF.API.Controllers
         }
 
         [HttpPost("login")]
+        [AllowAnonymous]
         public async Task<ActionResult<LoginResponse>> LogUserIn(LoginDTO loginDTO) {
             try
             {

@@ -1,173 +1,177 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\",
+  "WorkspaceRootPath": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A3E64CD6-8657-4827-B7C4-6A37B954FEA7}|AF.API\\AF.API.csproj|d:\\projectwerk\\autofocusrestserverapi -ddd\\backend\\af.api\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3E64CD6-8657-4827-B7C4-6A37B954FEA7}|AF.API\\AF.API.csproj|solutionrelative:af.api\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3E64CD6-8657-4827-B7C4-6A37B954FEA7}|AF.API\\AF.API.csproj|d:\\projectwerk\\autofocusrestserverapi -ddd\\backend\\af.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3E64CD6-8657-4827-B7C4-6A37B954FEA7}|AF.API\\AF.API.csproj|solutionrelative:af.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|d:\\projectwerk\\autofocusrestserverapi -ddd\\backend\\af.application\\dto\u0027s\\input\\registrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|solutionrelative:af.application\\dto\u0027s\\input\\registrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3E64CD6-8657-4827-B7C4-6A37B954FEA7}|AF.API\\AF.API.csproj|d:\\projectwerk\\autofocusrestserverapi -ddd\\backend\\af.api\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3E64CD6-8657-4827-B7C4-6A37B954FEA7}|AF.API\\AF.API.csproj|solutionrelative:af.api\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|d:\\projectwerk\\autofocusrestserverapi -ddd\\backend\\af.application\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|solutionrelative:af.application\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB688904-4743-4340-BAFA-13149F7267D3}|AF.Domain\\AF.Domain.csproj|d:\\projectwerk\\autofocusrestserverapi -ddd\\backend\\af.domain\\interfaces\\ibookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB688904-4743-4340-BAFA-13149F7267D3}|AF.Domain\\AF.Domain.csproj|solutionrelative:af.domain\\interfaces\\ibookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB688904-4743-4340-BAFA-13149F7267D3}|AF.Domain\\AF.Domain.csproj|d:\\projectwerk\\autofocusrestserverapi -ddd\\backend\\af.domain\\interfaces\\icarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB688904-4743-4340-BAFA-13149F7267D3}|AF.Domain\\AF.Domain.csproj|solutionrelative:af.domain\\interfaces\\icarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F1CC118-9681-4472-AA7A-039AE5F7F637}|AF.Infrastructure\\AF.Infrastructure.csproj|d:\\projectwerk\\autofocusrestserverapi -ddd\\backend\\af.infrastructure\\repos\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F1CC118-9681-4472-AA7A-039AE5F7F637}|AF.Infrastructure\\AF.Infrastructure.csproj|solutionrelative:af.infrastructure\\repos\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3E64CD6-8657-4827-B7C4-6A37B954FEA7}|AF.API\\AF.API.csproj|d:\\projectwerk\\autofocusrestserverapi -ddd\\backend\\af.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3E64CD6-8657-4827-B7C4-6A37B954FEA7}|AF.API\\AF.API.csproj|solutionrelative:af.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB688904-4743-4340-BAFA-13149F7267D3}|AF.Domain\\AF.Domain.csproj|d:\\projectwerk\\autofocusrestserverapi -ddd\\backend\\af.domain\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB688904-4743-4340-BAFA-13149F7267D3}|AF.Domain\\AF.Domain.csproj|solutionrelative:af.domain\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|d:\\projectwerk\\autofocusrestserverapi -ddd\\backend\\af.application\\models\\carmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|solutionrelative:af.application\\models\\carmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB688904-4743-4340-BAFA-13149F7267D3}|AF.Domain\\AF.Domain.csproj|d:\\projectwerk\\autofocusrestserverapi -ddd\\backend\\af.domain\\entities\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB688904-4743-4340-BAFA-13149F7267D3}|AF.Domain\\AF.Domain.csproj|solutionrelative:af.domain\\entities\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|d:\\projectwerk\\autofocusrestserverapi -ddd\\backend\\af.application\\models\\bookingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|solutionrelative:af.application\\models\\bookingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|d:\\projectwerk\\autofocusrestserverapi -ddd\\backend\\af.application\\dto\u0027s\\bookingrestnormaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|solutionrelative:af.application\\dto\u0027s\\bookingrestnormaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|d:\\projectwerk\\autofocusrestserverapi -ddd\\backend\\af.application\\dto\u0027s\\output\\registrationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|solutionrelative:af.application\\dto\u0027s\\output\\registrationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|d:\\projectwerk\\autofocusrestserverapi -ddd\\backend\\af.application\\mapper\\mappingconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|solutionrelative:af.application\\mapper\\mappingconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|d:\\projectwerk\\autofocusrestserverapi -ddd\\backend\\af.application\\dto\u0027s\\input\\carrestinputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|solutionrelative:af.application\\dto\u0027s\\input\\carrestinputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F1CC118-9681-4472-AA7A-039AE5F7F637}|AF.Infrastructure\\AF.Infrastructure.csproj|d:\\projectwerk\\autofocusrestserverapi -ddd\\backend\\af.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F1CC118-9681-4472-AA7A-039AE5F7F637}|AF.Infrastructure\\AF.Infrastructure.csproj|solutionrelative:af.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB688904-4743-4340-BAFA-13149F7267D3}|AF.Domain\\AF.Domain.csproj|d:\\projectwerk\\autofocusrestserverapi -ddd\\backend\\af.domain\\entities\\lessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB688904-4743-4340-BAFA-13149F7267D3}|AF.Domain\\AF.Domain.csproj|solutionrelative:af.domain\\entities\\lessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB688904-4743-4340-BAFA-13149F7267D3}|AF.Domain\\AF.Domain.csproj|d:\\projectwerk\\autofocusrestserverapi -ddd\\backend\\af.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB688904-4743-4340-BAFA-13149F7267D3}|AF.Domain\\AF.Domain.csproj|solutionrelative:af.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|d:\\projectwerk\\autofocusrestserverapi -ddd\\backend\\af.application\\models\\lessormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|solutionrelative:af.application\\models\\lessormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|d:\\projectwerk\\autofocusrestserverapi -ddd\\backend\\af.application\\models\\tenantmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|solutionrelative:af.application\\models\\tenantmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|d:\\projectwerk\\autofocusrestserverapi -ddd\\backend\\af.application\\dto\u0027s\\input\\tenantrestoutputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|solutionrelative:af.application\\dto\u0027s\\input\\tenantrestoutputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|d:\\projectwerk\\autofocusrestserverapi -ddd\\backend\\af.application\\dto\u0027s\\userrestnormaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|solutionrelative:af.application\\dto\u0027s\\userrestnormaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|d:\\projectwerk\\autofocusrestserverapi -ddd\\backend\\af.application\\dto\u0027s\\output\\carrestoutputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|solutionrelative:af.application\\dto\u0027s\\output\\carrestoutputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB688904-4743-4340-BAFA-13149F7267D3}|AF.Domain\\AF.Domain.csproj|d:\\projectwerk\\autofocusrestserverapi -ddd\\backend\\af.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB688904-4743-4340-BAFA-13149F7267D3}|AF.Domain\\AF.Domain.csproj|solutionrelative:af.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|d:\\projectwerk\\autofocusrestserverapi -ddd\\backend\\af.application\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|solutionrelative:af.application\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|d:\\projectwerk\\autofocusrestserverapi -ddd\\backend\\af.application\\dto\u0027s\\output\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|solutionrelative:af.application\\dto\u0027s\\output\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F1CC118-9681-4472-AA7A-039AE5F7F637}|AF.Infrastructure\\AF.Infrastructure.csproj|d:\\projectwerk\\autofocusrestserverapi -ddd\\backend\\af.infrastructure\\dependencyinjection\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F1CC118-9681-4472-AA7A-039AE5F7F637}|AF.Infrastructure\\AF.Infrastructure.csproj|solutionrelative:af.infrastructure\\dependencyinjection\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3E64CD6-8657-4827-B7C4-6A37B954FEA7}|AF.API\\AF.API.csproj|d:\\projectwerk\\autofocusrestserverapi -ddd\\backend\\af.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A3E64CD6-8657-4827-B7C4-6A37B954FEA7}|AF.API\\AF.API.csproj|solutionrelative:af.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F1CC118-9681-4472-AA7A-039AE5F7F637}|AF.Infrastructure\\AF.Infrastructure.csproj|d:\\projectwerk\\autofocusrestserverapi -ddd\\backend\\af.infrastructure\\extentions\\dbcontexthealthcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F1CC118-9681-4472-AA7A-039AE5F7F637}|AF.Infrastructure\\AF.Infrastructure.csproj|solutionrelative:af.infrastructure\\extentions\\dbcontexthealthcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB688904-4743-4340-BAFA-13149F7267D3}|AF.Domain\\AF.Domain.csproj|d:\\projectwerk\\autofocusrestserverapi -ddd\\backend\\af.domain\\pagination\\pagedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB688904-4743-4340-BAFA-13149F7267D3}|AF.Domain\\AF.Domain.csproj|solutionrelative:af.domain\\pagination\\pagedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB688904-4743-4340-BAFA-13149F7267D3}|AF.Domain\\AF.Domain.csproj|d:\\projectwerk\\autofocusrestserverapi -ddd\\backend\\af.domain\\pagination\\sorthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB688904-4743-4340-BAFA-13149F7267D3}|AF.Domain\\AF.Domain.csproj|solutionrelative:af.domain\\pagination\\sorthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F1CC118-9681-4472-AA7A-039AE5F7F637}|AF.Infrastructure\\AF.Infrastructure.csproj|d:\\projectwerk\\autofocusrestserverapi -ddd\\backend\\af.infrastructure\\queryparameters\\carparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F1CC118-9681-4472-AA7A-039AE5F7F637}|AF.Infrastructure\\AF.Infrastructure.csproj|solutionrelative:af.infrastructure\\queryparameters\\carparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB688904-4743-4340-BAFA-13149F7267D3}|AF.Domain\\AF.Domain.csproj|d:\\projectwerk\\autofocusrestserverapi -ddd\\backend\\af.domain\\pagination\\querystringparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB688904-4743-4340-BAFA-13149F7267D3}|AF.Domain\\AF.Domain.csproj|solutionrelative:af.domain\\pagination\\querystringparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB688904-4743-4340-BAFA-13149F7267D3}|AF.Domain\\AF.Domain.csproj|d:\\projectwerk\\autofocusrestserverapi -ddd\\backend\\af.domain\\pagination\\isorthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB688904-4743-4340-BAFA-13149F7267D3}|AF.Domain\\AF.Domain.csproj|solutionrelative:af.domain\\pagination\\isorthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3E64CD6-8657-4827-B7C4-6A37B954FEA7}|AF.API\\AF.API.csproj|d:\\projectwerk\\autofocusrestserverapi -ddd\\backend\\af.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{A3E64CD6-8657-4827-B7C4-6A37B954FEA7}|AF.API\\AF.API.csproj|d:\\projectwerk\\autofocus git branches\\autofocusrestserverapi - luca_branch\\backend\\af.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A3E64CD6-8657-4827-B7C4-6A37B954FEA7}|AF.API\\AF.API.csproj|solutionrelative:af.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|d:\\projectwerk\\autofocusrestserverapi -ddd\\backend\\af.application\\contracts\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|solutionrelative:af.application\\contracts\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A3E64CD6-8657-4827-B7C4-6A37B954FEA7}|AF.API\\AF.API.csproj|d:\\projectwerk\\autofocus git branches\\autofocusrestserverapi - luca_branch\\backend\\af.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A3E64CD6-8657-4827-B7C4-6A37B954FEA7}|AF.API\\AF.API.csproj|solutionrelative:af.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|d:\\projectwerk\\autofocusrestserverapi -ddd\\backend\\af.application\\dto\u0027s\\input\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A3E64CD6-8657-4827-B7C4-6A37B954FEA7}|AF.API\\AF.API.csproj|d:\\projectwerk\\autofocus git branches\\autofocusrestserverapi - luca_branch\\backend\\af.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3E64CD6-8657-4827-B7C4-6A37B954FEA7}|AF.API\\AF.API.csproj|solutionrelative:af.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1CC118-9681-4472-AA7A-039AE5F7F637}|AF.Infrastructure\\AF.Infrastructure.csproj|d:\\projectwerk\\autofocus git branches\\autofocusrestserverapi - luca_branch\\backend\\af.infrastructure\\repos\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1CC118-9681-4472-AA7A-039AE5F7F637}|AF.Infrastructure\\AF.Infrastructure.csproj|solutionrelative:af.infrastructure\\repos\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|d:\\projectwerk\\autofocus git branches\\autofocusrestserverapi - luca_branch\\backend\\af.application\\dto\u0027s\\input\\registrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|solutionrelative:af.application\\dto\u0027s\\input\\registrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|d:\\projectwerk\\autofocus git branches\\autofocusrestserverapi - luca_branch\\backend\\af.application\\dto\u0027s\\input\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|solutionrelative:af.application\\dto\u0027s\\input\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F1CC118-9681-4472-AA7A-039AE5F7F637}|AF.Infrastructure\\AF.Infrastructure.csproj|d:\\projectwerk\\autofocusrestserverapi -ddd\\backend\\af.infrastructure\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A3E64CD6-8657-4827-B7C4-6A37B954FEA7}|AF.API\\AF.API.csproj|d:\\projectwerk\\autofocus git branches\\autofocusrestserverapi - luca_branch\\backend\\af.api\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3E64CD6-8657-4827-B7C4-6A37B954FEA7}|AF.API\\AF.API.csproj|solutionrelative:af.api\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3E64CD6-8657-4827-B7C4-6A37B954FEA7}|AF.API\\AF.API.csproj|d:\\projectwerk\\autofocus git branches\\autofocusrestserverapi - luca_branch\\backend\\af.api\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3E64CD6-8657-4827-B7C4-6A37B954FEA7}|AF.API\\AF.API.csproj|solutionrelative:af.api\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|d:\\projectwerk\\autofocus git branches\\autofocusrestserverapi - luca_branch\\backend\\af.application\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|solutionrelative:af.application\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB688904-4743-4340-BAFA-13149F7267D3}|AF.Domain\\AF.Domain.csproj|d:\\projectwerk\\autofocus git branches\\autofocusrestserverapi - luca_branch\\backend\\af.domain\\interfaces\\ibookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB688904-4743-4340-BAFA-13149F7267D3}|AF.Domain\\AF.Domain.csproj|solutionrelative:af.domain\\interfaces\\ibookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB688904-4743-4340-BAFA-13149F7267D3}|AF.Domain\\AF.Domain.csproj|d:\\projectwerk\\autofocus git branches\\autofocusrestserverapi - luca_branch\\backend\\af.domain\\interfaces\\icarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB688904-4743-4340-BAFA-13149F7267D3}|AF.Domain\\AF.Domain.csproj|solutionrelative:af.domain\\interfaces\\icarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1CC118-9681-4472-AA7A-039AE5F7F637}|AF.Infrastructure\\AF.Infrastructure.csproj|d:\\projectwerk\\autofocus git branches\\autofocusrestserverapi - luca_branch\\backend\\af.infrastructure\\repos\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1CC118-9681-4472-AA7A-039AE5F7F637}|AF.Infrastructure\\AF.Infrastructure.csproj|solutionrelative:af.infrastructure\\repos\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3E64CD6-8657-4827-B7C4-6A37B954FEA7}|AF.API\\AF.API.csproj|d:\\projectwerk\\autofocus git branches\\autofocusrestserverapi - luca_branch\\backend\\af.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3E64CD6-8657-4827-B7C4-6A37B954FEA7}|AF.API\\AF.API.csproj|solutionrelative:af.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB688904-4743-4340-BAFA-13149F7267D3}|AF.Domain\\AF.Domain.csproj|d:\\projectwerk\\autofocus git branches\\autofocusrestserverapi - luca_branch\\backend\\af.domain\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB688904-4743-4340-BAFA-13149F7267D3}|AF.Domain\\AF.Domain.csproj|solutionrelative:af.domain\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|d:\\projectwerk\\autofocus git branches\\autofocusrestserverapi - luca_branch\\backend\\af.application\\models\\carmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|solutionrelative:af.application\\models\\carmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB688904-4743-4340-BAFA-13149F7267D3}|AF.Domain\\AF.Domain.csproj|d:\\projectwerk\\autofocus git branches\\autofocusrestserverapi - luca_branch\\backend\\af.domain\\entities\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB688904-4743-4340-BAFA-13149F7267D3}|AF.Domain\\AF.Domain.csproj|solutionrelative:af.domain\\entities\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|d:\\projectwerk\\autofocus git branches\\autofocusrestserverapi - luca_branch\\backend\\af.application\\models\\bookingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|solutionrelative:af.application\\models\\bookingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|d:\\projectwerk\\autofocus git branches\\autofocusrestserverapi - luca_branch\\backend\\af.application\\dto\u0027s\\bookingrestnormaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|solutionrelative:af.application\\dto\u0027s\\bookingrestnormaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|d:\\projectwerk\\autofocus git branches\\autofocusrestserverapi - luca_branch\\backend\\af.application\\dto\u0027s\\output\\registrationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|solutionrelative:af.application\\dto\u0027s\\output\\registrationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|d:\\projectwerk\\autofocus git branches\\autofocusrestserverapi - luca_branch\\backend\\af.application\\mapper\\mappingconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|solutionrelative:af.application\\mapper\\mappingconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|d:\\projectwerk\\autofocus git branches\\autofocusrestserverapi - luca_branch\\backend\\af.application\\dto\u0027s\\input\\carrestinputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|solutionrelative:af.application\\dto\u0027s\\input\\carrestinputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1CC118-9681-4472-AA7A-039AE5F7F637}|AF.Infrastructure\\AF.Infrastructure.csproj|d:\\projectwerk\\autofocus git branches\\autofocusrestserverapi - luca_branch\\backend\\af.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1CC118-9681-4472-AA7A-039AE5F7F637}|AF.Infrastructure\\AF.Infrastructure.csproj|solutionrelative:af.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB688904-4743-4340-BAFA-13149F7267D3}|AF.Domain\\AF.Domain.csproj|d:\\projectwerk\\autofocus git branches\\autofocusrestserverapi - luca_branch\\backend\\af.domain\\entities\\lessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB688904-4743-4340-BAFA-13149F7267D3}|AF.Domain\\AF.Domain.csproj|solutionrelative:af.domain\\entities\\lessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB688904-4743-4340-BAFA-13149F7267D3}|AF.Domain\\AF.Domain.csproj|d:\\projectwerk\\autofocus git branches\\autofocusrestserverapi - luca_branch\\backend\\af.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB688904-4743-4340-BAFA-13149F7267D3}|AF.Domain\\AF.Domain.csproj|solutionrelative:af.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|d:\\projectwerk\\autofocus git branches\\autofocusrestserverapi - luca_branch\\backend\\af.application\\models\\lessormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|solutionrelative:af.application\\models\\lessormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|d:\\projectwerk\\autofocus git branches\\autofocusrestserverapi - luca_branch\\backend\\af.application\\models\\tenantmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|solutionrelative:af.application\\models\\tenantmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|d:\\projectwerk\\autofocus git branches\\autofocusrestserverapi - luca_branch\\backend\\af.application\\dto\u0027s\\input\\tenantrestoutputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|solutionrelative:af.application\\dto\u0027s\\input\\tenantrestoutputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|d:\\projectwerk\\autofocus git branches\\autofocusrestserverapi - luca_branch\\backend\\af.application\\dto\u0027s\\userrestnormaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|solutionrelative:af.application\\dto\u0027s\\userrestnormaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|d:\\projectwerk\\autofocus git branches\\autofocusrestserverapi - luca_branch\\backend\\af.application\\dto\u0027s\\output\\carrestoutputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|solutionrelative:af.application\\dto\u0027s\\output\\carrestoutputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB688904-4743-4340-BAFA-13149F7267D3}|AF.Domain\\AF.Domain.csproj|d:\\projectwerk\\autofocus git branches\\autofocusrestserverapi - luca_branch\\backend\\af.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB688904-4743-4340-BAFA-13149F7267D3}|AF.Domain\\AF.Domain.csproj|solutionrelative:af.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|d:\\projectwerk\\autofocus git branches\\autofocusrestserverapi - luca_branch\\backend\\af.application\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|solutionrelative:af.application\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|d:\\projectwerk\\autofocus git branches\\autofocusrestserverapi - luca_branch\\backend\\af.application\\dto\u0027s\\output\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|solutionrelative:af.application\\dto\u0027s\\output\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1CC118-9681-4472-AA7A-039AE5F7F637}|AF.Infrastructure\\AF.Infrastructure.csproj|d:\\projectwerk\\autofocus git branches\\autofocusrestserverapi - luca_branch\\backend\\af.infrastructure\\dependencyinjection\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1CC118-9681-4472-AA7A-039AE5F7F637}|AF.Infrastructure\\AF.Infrastructure.csproj|solutionrelative:af.infrastructure\\dependencyinjection\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1CC118-9681-4472-AA7A-039AE5F7F637}|AF.Infrastructure\\AF.Infrastructure.csproj|d:\\projectwerk\\autofocus git branches\\autofocusrestserverapi - luca_branch\\backend\\af.infrastructure\\extentions\\dbcontexthealthcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1CC118-9681-4472-AA7A-039AE5F7F637}|AF.Infrastructure\\AF.Infrastructure.csproj|solutionrelative:af.infrastructure\\extentions\\dbcontexthealthcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB688904-4743-4340-BAFA-13149F7267D3}|AF.Domain\\AF.Domain.csproj|d:\\projectwerk\\autofocus git branches\\autofocusrestserverapi - luca_branch\\backend\\af.domain\\pagination\\pagedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB688904-4743-4340-BAFA-13149F7267D3}|AF.Domain\\AF.Domain.csproj|solutionrelative:af.domain\\pagination\\pagedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB688904-4743-4340-BAFA-13149F7267D3}|AF.Domain\\AF.Domain.csproj|d:\\projectwerk\\autofocus git branches\\autofocusrestserverapi - luca_branch\\backend\\af.domain\\pagination\\sorthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB688904-4743-4340-BAFA-13149F7267D3}|AF.Domain\\AF.Domain.csproj|solutionrelative:af.domain\\pagination\\sorthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1CC118-9681-4472-AA7A-039AE5F7F637}|AF.Infrastructure\\AF.Infrastructure.csproj|d:\\projectwerk\\autofocus git branches\\autofocusrestserverapi - luca_branch\\backend\\af.infrastructure\\queryparameters\\carparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1CC118-9681-4472-AA7A-039AE5F7F637}|AF.Infrastructure\\AF.Infrastructure.csproj|solutionrelative:af.infrastructure\\queryparameters\\carparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB688904-4743-4340-BAFA-13149F7267D3}|AF.Domain\\AF.Domain.csproj|d:\\projectwerk\\autofocus git branches\\autofocusrestserverapi - luca_branch\\backend\\af.domain\\pagination\\querystringparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB688904-4743-4340-BAFA-13149F7267D3}|AF.Domain\\AF.Domain.csproj|solutionrelative:af.domain\\pagination\\querystringparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB688904-4743-4340-BAFA-13149F7267D3}|AF.Domain\\AF.Domain.csproj|d:\\projectwerk\\autofocus git branches\\autofocusrestserverapi - luca_branch\\backend\\af.domain\\pagination\\isorthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB688904-4743-4340-BAFA-13149F7267D3}|AF.Domain\\AF.Domain.csproj|solutionrelative:af.domain\\pagination\\isorthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|d:\\projectwerk\\autofocus git branches\\autofocusrestserverapi - luca_branch\\backend\\af.application\\contracts\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804D26B6-C08B-4FCA-98B7-5E83A1168F72}|AF.Application\\AF.Application.csproj|solutionrelative:af.application\\contracts\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1CC118-9681-4472-AA7A-039AE5F7F637}|AF.Infrastructure\\AF.Infrastructure.csproj|d:\\projectwerk\\autofocus git branches\\autofocusrestserverapi - luca_branch\\backend\\af.infrastructure\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F1CC118-9681-4472-AA7A-039AE5F7F637}|AF.Infrastructure\\AF.Infrastructure.csproj|solutionrelative:af.infrastructure\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3E64CD6-8657-4827-B7C4-6A37B954FEA7}|AF.API\\AF.API.csproj|d:\\projectwerk\\autofocusrestserverapi -ddd\\backend\\af.api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A3E64CD6-8657-4827-B7C4-6A37B954FEA7}|AF.API\\AF.API.csproj|d:\\projectwerk\\autofocus git branches\\autofocusrestserverapi - luca_branch\\backend\\af.api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A3E64CD6-8657-4827-B7C4-6A37B954FEA7}|AF.API\\AF.API.csproj|solutionrelative:af.api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F1CC118-9681-4472-AA7A-039AE5F7F637}|AF.Infrastructure\\AF.Infrastructure.csproj|d:\\projectwerk\\autofocusrestserverapi -ddd\\backend\\af.infrastructure\\migrations\\20240423090602_initialcreate_v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F1CC118-9681-4472-AA7A-039AE5F7F637}|AF.Infrastructure\\AF.Infrastructure.csproj|d:\\projectwerk\\autofocus git branches\\autofocusrestserverapi - luca_branch\\backend\\af.infrastructure\\migrations\\20240423090602_initialcreate_v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F1CC118-9681-4472-AA7A-039AE5F7F637}|AF.Infrastructure\\AF.Infrastructure.csproj|solutionrelative:af.infrastructure\\migrations\\20240423090602_initialcreate_v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -184,52 +188,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.API\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "AF.API\\Controllers\\UserController.cs",
-              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.API\\Controllers\\UserController.cs",
-              "RelativeToolTip": "AF.API\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAEIAAAANAAAA",
+              "DocumentIndex": 4,
+              "Title": "RegistrationDTO.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Application\\DTO\u0027s\\Input\\RegistrationDTO.cs",
+              "RelativeDocumentMoniker": "AF.Application\\DTO\u0027s\\Input\\RegistrationDTO.cs",
+              "ToolTip": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Application\\DTO\u0027s\\Input\\RegistrationDTO.cs",
+              "RelativeToolTip": "AF.Application\\DTO\u0027s\\Input\\RegistrationDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T09:22:43.136Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CarController.cs",
-              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.API\\Controllers\\CarController.cs",
-              "RelativeDocumentMoniker": "AF.API\\Controllers\\CarController.cs",
-              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.API\\Controllers\\CarController.cs",
-              "RelativeToolTip": "AF.API\\Controllers\\CarController.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAowAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T09:22:39.202Z",
+              "WhenOpened": "2024-04-22T16:30:59.494Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RegistrationDTO.cs",
-              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Application\\DTO\u0027s\\Input\\RegistrationDTO.cs",
-              "RelativeDocumentMoniker": "AF.Application\\DTO\u0027s\\Input\\RegistrationDTO.cs",
-              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Application\\DTO\u0027s\\Input\\RegistrationDTO.cs",
-              "RelativeToolTip": "AF.Application\\DTO\u0027s\\Input\\RegistrationDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T16:30:59.494Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "IBookingRepository.cs",
-              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Domain\\Interfaces\\IBookingRepository.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Domain\\Interfaces\\IBookingRepository.cs",
               "RelativeDocumentMoniker": "AF.Domain\\Interfaces\\IBookingRepository.cs",
-              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Domain\\Interfaces\\IBookingRepository.cs",
+              "ToolTip": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Domain\\Interfaces\\IBookingRepository.cs",
               "RelativeToolTip": "AF.Domain\\Interfaces\\IBookingRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -237,11 +217,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Manager.cs",
-              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Application\\Manager.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Application\\Manager.cs",
               "RelativeDocumentMoniker": "AF.Application\\Manager.cs",
-              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Application\\Manager.cs",
+              "ToolTip": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Application\\Manager.cs",
               "RelativeToolTip": "AF.Application\\Manager.cs",
               "ViewState": "AQIAAKoAAAAAAAAAAAAvwNQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -249,11 +229,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "BookingController.cs",
-              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.API\\Controllers\\BookingController.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.API\\Controllers\\BookingController.cs",
               "RelativeDocumentMoniker": "AF.API\\Controllers\\BookingController.cs",
-              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.API\\Controllers\\BookingController.cs",
+              "ToolTip": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.API\\Controllers\\BookingController.cs",
               "RelativeToolTip": "AF.API\\Controllers\\BookingController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAFQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -262,11 +242,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "ICarRepository.cs",
-              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Domain\\Interfaces\\ICarRepository.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Domain\\Interfaces\\ICarRepository.cs",
               "RelativeDocumentMoniker": "AF.Domain\\Interfaces\\ICarRepository.cs",
-              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Domain\\Interfaces\\ICarRepository.cs",
+              "ToolTip": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Domain\\Interfaces\\ICarRepository.cs",
               "RelativeToolTip": "AF.Domain\\Interfaces\\ICarRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -274,11 +254,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "BookingRepository.cs",
-              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Infrastructure\\Repos\\BookingRepository.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Infrastructure\\Repos\\BookingRepository.cs",
               "RelativeDocumentMoniker": "AF.Infrastructure\\Repos\\BookingRepository.cs",
-              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Infrastructure\\Repos\\BookingRepository.cs",
+              "ToolTip": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Infrastructure\\Repos\\BookingRepository.cs",
               "RelativeToolTip": "AF.Infrastructure\\Repos\\BookingRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -286,11 +266,76 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.API\\appsettings.json",
+              "RelativeDocumentMoniker": "AF.API\\appsettings.json",
+              "ToolTip": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.API\\appsettings.json",
+              "RelativeToolTip": "AF.API\\appsettings.json",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-20T16:54:11.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Infrastructure\\Repos\\UserRepository.cs",
+              "RelativeDocumentMoniker": "AF.Infrastructure\\Repos\\UserRepository.cs",
+              "ToolTip": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Infrastructure\\Repos\\UserRepository.cs",
+              "RelativeToolTip": "AF.Infrastructure\\Repos\\UserRepository.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAA1wCkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T12:11:20.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "AF.API\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "AF.API\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABoAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-28T17:37:23.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "AF.API\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "AF.API\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T09:22:43.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CarController.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.API\\Controllers\\CarController.cs",
+              "RelativeDocumentMoniker": "AF.API\\Controllers\\CarController.cs",
+              "ToolTip": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.API\\Controllers\\CarController.cs",
+              "RelativeToolTip": "AF.API\\Controllers\\CarController.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T09:22:39.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.API\\Program.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.API\\Program.cs",
               "RelativeDocumentMoniker": "AF.API\\Program.cs",
-              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.API\\Program.cs",
+              "ToolTip": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.API\\Program.cs",
               "RelativeToolTip": "AF.API\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAEgAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -298,11 +343,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Application\\DTO\u0027s\\Input\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "AF.Application\\DTO\u0027s\\Input\\LoginDTO.cs",
+              "ToolTip": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Application\\DTO\u0027s\\Input\\LoginDTO.cs",
+              "RelativeToolTip": "AF.Application\\DTO\u0027s\\Input\\LoginDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T10:37:19.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "IRepository.cs",
-              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Domain\\Interfaces\\IRepository.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Domain\\Interfaces\\IRepository.cs",
               "RelativeDocumentMoniker": "AF.Domain\\Interfaces\\IRepository.cs",
-              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Domain\\Interfaces\\IRepository.cs",
+              "ToolTip": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Domain\\Interfaces\\IRepository.cs",
               "RelativeToolTip": "AF.Domain\\Interfaces\\IRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -310,11 +368,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "CarModel.cs",
-              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Application\\Models\\CarModel.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Application\\Models\\CarModel.cs",
               "RelativeDocumentMoniker": "AF.Application\\Models\\CarModel.cs",
-              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Application\\Models\\CarModel.cs",
+              "ToolTip": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Application\\Models\\CarModel.cs",
               "RelativeToolTip": "AF.Application\\Models\\CarModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -322,11 +380,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "BookingRESTnormalDTO.cs",
-              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Application\\DTO\u0027s\\BookingRESTnormalDTO.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Application\\DTO\u0027s\\BookingRESTnormalDTO.cs",
               "RelativeDocumentMoniker": "AF.Application\\DTO\u0027s\\BookingRESTnormalDTO.cs",
-              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Application\\DTO\u0027s\\BookingRESTnormalDTO.cs",
+              "ToolTip": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Application\\DTO\u0027s\\BookingRESTnormalDTO.cs",
               "RelativeToolTip": "AF.Application\\DTO\u0027s\\BookingRESTnormalDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -334,11 +392,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "Booking.cs",
-              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Domain\\Entities\\Booking.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Domain\\Entities\\Booking.cs",
               "RelativeDocumentMoniker": "AF.Domain\\Entities\\Booking.cs",
-              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Domain\\Entities\\Booking.cs",
+              "ToolTip": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Domain\\Entities\\Booking.cs",
               "RelativeToolTip": "AF.Domain\\Entities\\Booking.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -346,11 +404,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "BookingModel.cs",
-              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Application\\Models\\BookingModel.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Application\\Models\\BookingModel.cs",
               "RelativeDocumentMoniker": "AF.Application\\Models\\BookingModel.cs",
-              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Application\\Models\\BookingModel.cs",
+              "ToolTip": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Application\\Models\\BookingModel.cs",
               "RelativeToolTip": "AF.Application\\Models\\BookingModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -358,11 +416,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "RegistrationResponse.cs",
-              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Application\\DTO\u0027s\\Output\\RegistrationResponse.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Application\\DTO\u0027s\\Output\\RegistrationResponse.cs",
               "RelativeDocumentMoniker": "AF.Application\\DTO\u0027s\\Output\\RegistrationResponse.cs",
-              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Application\\DTO\u0027s\\Output\\RegistrationResponse.cs",
+              "ToolTip": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Application\\DTO\u0027s\\Output\\RegistrationResponse.cs",
               "RelativeToolTip": "AF.Application\\DTO\u0027s\\Output\\RegistrationResponse.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -370,11 +428,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "MappingConfig.cs",
-              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Application\\Mapper\\MappingConfig.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Application\\Mapper\\MappingConfig.cs",
               "RelativeDocumentMoniker": "AF.Application\\Mapper\\MappingConfig.cs",
-              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Application\\Mapper\\MappingConfig.cs",
+              "ToolTip": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Application\\Mapper\\MappingConfig.cs",
               "RelativeToolTip": "AF.Application\\Mapper\\MappingConfig.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -382,11 +440,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "CarRESTinputDTO.cs",
-              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Application\\DTO\u0027s\\Input\\CarRESTinputDTO.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Application\\DTO\u0027s\\Input\\CarRESTinputDTO.cs",
               "RelativeDocumentMoniker": "AF.Application\\DTO\u0027s\\Input\\CarRESTinputDTO.cs",
-              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Application\\DTO\u0027s\\Input\\CarRESTinputDTO.cs",
+              "ToolTip": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Application\\DTO\u0027s\\Input\\CarRESTinputDTO.cs",
               "RelativeToolTip": "AF.Application\\DTO\u0027s\\Input\\CarRESTinputDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -394,11 +452,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Infrastructure\\Data\\AppDbContext.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Infrastructure\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "AF.Infrastructure\\Data\\AppDbContext.cs",
-              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Infrastructure\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Infrastructure\\Data\\AppDbContext.cs",
               "RelativeToolTip": "AF.Infrastructure\\Data\\AppDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -406,11 +464,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "TenantRESToutputDTO.cs",
-              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Application\\DTO\u0027s\\Input\\TenantRESToutputDTO.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Application\\DTO\u0027s\\Input\\TenantRESToutputDTO.cs",
               "RelativeDocumentMoniker": "AF.Application\\DTO\u0027s\\Input\\TenantRESToutputDTO.cs",
-              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Application\\DTO\u0027s\\Input\\TenantRESToutputDTO.cs",
+              "ToolTip": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Application\\DTO\u0027s\\Input\\TenantRESToutputDTO.cs",
               "RelativeToolTip": "AF.Application\\DTO\u0027s\\Input\\TenantRESToutputDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -418,11 +476,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "IUserRepository.cs",
-              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Domain\\Interfaces\\IUserRepository.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Domain\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "AF.Domain\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Domain\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Domain\\Interfaces\\IUserRepository.cs",
               "RelativeToolTip": "AF.Domain\\Interfaces\\IUserRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -430,11 +488,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "Lessor.cs",
-              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Domain\\Entities\\Lessor.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Domain\\Entities\\Lessor.cs",
               "RelativeDocumentMoniker": "AF.Domain\\Entities\\Lessor.cs",
-              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Domain\\Entities\\Lessor.cs",
+              "ToolTip": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Domain\\Entities\\Lessor.cs",
               "RelativeToolTip": "AF.Domain\\Entities\\Lessor.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -442,11 +500,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "LessorModel.cs",
-              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Application\\Models\\LessorModel.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Application\\Models\\LessorModel.cs",
               "RelativeDocumentMoniker": "AF.Application\\Models\\LessorModel.cs",
-              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Application\\Models\\LessorModel.cs",
+              "ToolTip": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Application\\Models\\LessorModel.cs",
               "RelativeToolTip": "AF.Application\\Models\\LessorModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -454,11 +512,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "TenantModel.cs",
-              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Application\\Models\\TenantModel.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Application\\Models\\TenantModel.cs",
               "RelativeDocumentMoniker": "AF.Application\\Models\\TenantModel.cs",
-              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Application\\Models\\TenantModel.cs",
+              "ToolTip": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Application\\Models\\TenantModel.cs",
               "RelativeToolTip": "AF.Application\\Models\\TenantModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -466,11 +524,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "UserRestnormalDTO.cs",
-              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Application\\DTO\u0027s\\UserRestnormalDTO.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Application\\DTO\u0027s\\UserRestnormalDTO.cs",
               "RelativeDocumentMoniker": "AF.Application\\DTO\u0027s\\UserRestnormalDTO.cs",
-              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Application\\DTO\u0027s\\UserRestnormalDTO.cs",
+              "ToolTip": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Application\\DTO\u0027s\\UserRestnormalDTO.cs",
               "RelativeToolTip": "AF.Application\\DTO\u0027s\\UserRestnormalDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -478,11 +536,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "CarRESToutputDTO.cs",
-              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Application\\DTO\u0027s\\Output\\CarRESToutputDTO.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Application\\DTO\u0027s\\Output\\CarRESToutputDTO.cs",
               "RelativeDocumentMoniker": "AF.Application\\DTO\u0027s\\Output\\CarRESToutputDTO.cs",
-              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Application\\DTO\u0027s\\Output\\CarRESToutputDTO.cs",
+              "ToolTip": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Application\\DTO\u0027s\\Output\\CarRESToutputDTO.cs",
               "RelativeToolTip": "AF.Application\\DTO\u0027s\\Output\\CarRESToutputDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -490,11 +548,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "User.cs",
-              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Domain\\Entities\\User.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Domain\\Entities\\User.cs",
               "RelativeDocumentMoniker": "AF.Domain\\Entities\\User.cs",
-              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Domain\\Entities\\User.cs",
+              "ToolTip": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Domain\\Entities\\User.cs",
               "RelativeToolTip": "AF.Domain\\Entities\\User.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -502,11 +560,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "UserModel.cs",
-              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Application\\Models\\UserModel.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Application\\Models\\UserModel.cs",
               "RelativeDocumentMoniker": "AF.Application\\Models\\UserModel.cs",
-              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Application\\Models\\UserModel.cs",
+              "ToolTip": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Application\\Models\\UserModel.cs",
               "RelativeToolTip": "AF.Application\\Models\\UserModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -514,11 +572,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 31,
               "Title": "LoginResponse.cs",
-              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Application\\DTO\u0027s\\Output\\LoginResponse.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Application\\DTO\u0027s\\Output\\LoginResponse.cs",
               "RelativeDocumentMoniker": "AF.Application\\DTO\u0027s\\Output\\LoginResponse.cs",
-              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Application\\DTO\u0027s\\Output\\LoginResponse.cs",
+              "ToolTip": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Application\\DTO\u0027s\\Output\\LoginResponse.cs",
               "RelativeToolTip": "AF.Application\\DTO\u0027s\\Output\\LoginResponse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -526,11 +584,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 32,
               "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Infrastructure\\DependencyInjection\\DependencyInjection.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Infrastructure\\DependencyInjection\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "AF.Infrastructure\\DependencyInjection\\DependencyInjection.cs",
-              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Infrastructure\\DependencyInjection\\DependencyInjection.cs",
+              "ToolTip": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Infrastructure\\DependencyInjection\\DependencyInjection.cs",
               "RelativeToolTip": "AF.Infrastructure\\DependencyInjection\\DependencyInjection.cs",
               "ViewState": "AQIAAEkAAAAAAAAAAAAgwHQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -538,23 +596,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.API\\appsettings.json",
-              "RelativeDocumentMoniker": "AF.API\\appsettings.json",
-              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.API\\appsettings.json",
-              "RelativeToolTip": "AF.API\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-20T16:54:11.077Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "DbContextHealthCheck.cs",
-              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Infrastructure\\Extentions\\DbContextHealthCheck.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Infrastructure\\Extentions\\DbContextHealthCheck.cs",
               "RelativeDocumentMoniker": "AF.Infrastructure\\Extentions\\DbContextHealthCheck.cs",
-              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Infrastructure\\Extentions\\DbContextHealthCheck.cs",
+              "ToolTip": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Infrastructure\\Extentions\\DbContextHealthCheck.cs",
               "RelativeToolTip": "AF.Infrastructure\\Extentions\\DbContextHealthCheck.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -562,11 +608,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 35,
               "Title": "SortHelper.cs",
-              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Domain\\Pagination\\SortHelper.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Domain\\Pagination\\SortHelper.cs",
               "RelativeDocumentMoniker": "AF.Domain\\Pagination\\SortHelper.cs",
-              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Domain\\Pagination\\SortHelper.cs",
+              "ToolTip": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Domain\\Pagination\\SortHelper.cs",
               "RelativeToolTip": "AF.Domain\\Pagination\\SortHelper.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwCkAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -574,11 +620,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 34,
               "Title": "PagedList.cs",
-              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Domain\\Pagination\\PagedList.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Domain\\Pagination\\PagedList.cs",
               "RelativeDocumentMoniker": "AF.Domain\\Pagination\\PagedList.cs",
-              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Domain\\Pagination\\PagedList.cs",
+              "ToolTip": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Domain\\Pagination\\PagedList.cs",
               "RelativeToolTip": "AF.Domain\\Pagination\\PagedList.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAA1wDMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -586,11 +632,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 36,
               "Title": "CarParameters.cs",
-              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Infrastructure\\QueryParameters\\CarParameters.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Infrastructure\\QueryParameters\\CarParameters.cs",
               "RelativeDocumentMoniker": "AF.Infrastructure\\QueryParameters\\CarParameters.cs",
-              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Infrastructure\\QueryParameters\\CarParameters.cs",
+              "ToolTip": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Infrastructure\\QueryParameters\\CarParameters.cs",
               "RelativeToolTip": "AF.Infrastructure\\QueryParameters\\CarParameters.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -598,11 +644,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 37,
               "Title": "QueryStringParameters.cs",
-              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Domain\\Pagination\\QueryStringParameters.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Domain\\Pagination\\QueryStringParameters.cs",
               "RelativeDocumentMoniker": "AF.Domain\\Pagination\\QueryStringParameters.cs",
-              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Domain\\Pagination\\QueryStringParameters.cs",
+              "ToolTip": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Domain\\Pagination\\QueryStringParameters.cs",
               "RelativeToolTip": "AF.Domain\\Pagination\\QueryStringParameters.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -610,11 +656,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 38,
               "Title": "ISortHelper.cs",
-              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Domain\\Pagination\\ISortHelper.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Domain\\Pagination\\ISortHelper.cs",
               "RelativeDocumentMoniker": "AF.Domain\\Pagination\\ISortHelper.cs",
-              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Domain\\Pagination\\ISortHelper.cs",
+              "ToolTip": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Domain\\Pagination\\ISortHelper.cs",
               "RelativeToolTip": "AF.Domain\\Pagination\\ISortHelper.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -622,23 +668,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.API\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "AF.API\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.API\\Properties\\launchSettings.json",
-              "RelativeToolTip": "AF.API\\Properties\\launchSettings.json",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAADIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-28T17:37:23.475Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 39,
               "Title": "IUser.cs",
-              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Application\\Contracts\\IUser.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Application\\Contracts\\IUser.cs",
               "RelativeDocumentMoniker": "AF.Application\\Contracts\\IUser.cs",
-              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Application\\Contracts\\IUser.cs",
+              "ToolTip": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Application\\Contracts\\IUser.cs",
               "RelativeToolTip": "AF.Application\\Contracts\\IUser.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -646,23 +680,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "LoginDTO.cs",
-              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Application\\DTO\u0027s\\Input\\LoginDTO.cs",
-              "RelativeDocumentMoniker": "AF.Application\\DTO\u0027s\\Input\\LoginDTO.cs",
-              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Application\\DTO\u0027s\\Input\\LoginDTO.cs",
-              "RelativeToolTip": "AF.Application\\DTO\u0027s\\Input\\LoginDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T10:37:19.163Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "AppDbContextModelSnapshot.cs",
-              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Infrastructure\\Migrations\\AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Infrastructure\\Migrations\\AppDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "AF.Infrastructure\\Migrations\\AppDbContextModelSnapshot.cs",
-              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Infrastructure\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Infrastructure\\Migrations\\AppDbContextModelSnapshot.cs",
               "RelativeToolTip": "AF.Infrastructure\\Migrations\\AppDbContextModelSnapshot.cs",
               "ViewState": "AQIAAMcAAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -670,11 +692,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.API\\WeatherForecast.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.API\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "AF.API\\WeatherForecast.cs",
-              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.API\\WeatherForecast.cs",
+              "ToolTip": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.API\\WeatherForecast.cs",
               "RelativeToolTip": "AF.API\\WeatherForecast.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -682,11 +704,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "20240423090602_InitialCreate_V1.cs",
-              "DocumentMoniker": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Infrastructure\\Migrations\\20240423090602_InitialCreate_V1.cs",
+              "DocumentMoniker": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Infrastructure\\Migrations\\20240423090602_InitialCreate_V1.cs",
               "RelativeDocumentMoniker": "AF.Infrastructure\\Migrations\\20240423090602_InitialCreate_V1.cs",
-              "ToolTip": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Infrastructure\\Migrations\\20240423090602_InitialCreate_V1.cs",
+              "ToolTip": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Infrastructure\\Migrations\\20240423090602_InitialCreate_V1.cs",
               "RelativeToolTip": "AF.Infrastructure\\Migrations\\20240423090602_InitialCreate_V1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAHIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -694,7 +716,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "Huurder.cs",
               "DocumentMoniker": "C:\\Users\\Juane\\AppData\\Local\\Temp\\c6c8cc27-620f-4988-8435-c8a208d23d41_AutoFocus_WebAPI_v2.zip.d41\\AutoFocus_WebAPI_v2\\AutoFocus.Domain\\Entities\\Huurder.cs",
               "ToolTip": "C:\\Users\\Juane\\AppData\\Local\\Temp\\c6c8cc27-620f-4988-8435-c8a208d23d41_AutoFocus_WebAPI_v2.zip.d41\\AutoFocus_WebAPI_v2\\AutoFocus.Domain\\Entities\\Huurder.cs [Read Only]",
@@ -704,7 +726,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "Verhuurder.cs",
               "DocumentMoniker": "C:\\Users\\Juane\\AppData\\Local\\Temp\\02bf63b2-c8fa-40b5-865b-14bd14555d11_AutoFocus_WebAPI_v2.zip.d11\\AutoFocus_WebAPI_v2\\AutoFocus.Domain\\Entities\\Verhuurder.cs",
               "ToolTip": "C:\\Users\\Juane\\AppData\\Local\\Temp\\02bf63b2-c8fa-40b5-865b-14bd14555d11_AutoFocus_WebAPI_v2.zip.d11\\AutoFocus_WebAPI_v2\\AutoFocus.Domain\\Entities\\Verhuurder.cs [Read Only]",
