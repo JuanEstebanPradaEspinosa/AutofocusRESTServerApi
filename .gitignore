@@ -1,0 +1,40 @@
+# Frontend ignores
+Frontend/node_modules/
+Frontend/dist/
+Frontend/build/
+Frontend/.env
+Frontend/.env.local
+Frontend/.env.development.local
+Frontend/.env.test.local
+Frontend/.env.production.local
+Frontend/npm-debug.log*
+Frontend/yarn-debug.log*
+Frontend/yarn-error.log*
+
+# Backend ignores
+Backend/bin/
+Backend/obj/
+Backend/Debug/
+Backend/Release/
+Backend/.vs/
+Backend/*.user
+Backend/*.suo
+Backend/Properties/launchSettings.json
+
+# IDE specific files
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Misc
+*.log
+*.swp
+*.bak
