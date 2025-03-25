@@ -1,99 +1,83 @@
 // eslint-disable-next-line no-unused-vars
-import React from "react";
-import { useState } from "react";
-import {
-  Typography,
-  CssBaseline,
-  Grid,
-  Container,
-  IconButton,
-} from "@mui/material";
-
-import { Add } from "@mui/icons-material";
-
-import Header from "./layout/Header";
-import Footer from "./components/Footer";
+import React, { useState } from "react";
+import { Typography, Container } from "@mui/material";
 import CardsContainer from "./components/CardsContainer";
-//import DetailsDialog from "./components/DetailsDialog";
-// import MessageDialog from "./components/MessageDialog";
-import RentCarPage from "./components/RentCarPage";
-import CarCatalog from "./components/CarCatalog";
-//import ContactListPage from "./components/chat/ContactListPage";
+import SearchBar from "./components/SearchBar";
+import autofocusBanner from "./images/why-kei-8e2gal_GIE8-unsplash.jpg";
+import NewsLetterSection from "./components/PageSections/NewsLetterSection";
+import PricingSection from "./components/PageSections/PricingSection";
+import Testimonials from "./components/Testimonials";
 
 const App = () => {
-  const [openRentCarDialog, setOpenRentCarDialog] = useState(false);
-  const [cars, setCars] = useState([]); // Houd een lijst bij van toegevoegde auto's
-
-  const handleOpenRentCarDialog = () => {
-    setOpenRentCarDialog(true);
-  };
-
-  const handleCloseRentCarDialog = () => {
-    setOpenRentCarDialog(false);
-  };
-
-  const handleAddCar = (carInfo) => {
-    const updatedCars = [...cars, carInfo];
-    setCars(updatedCars);
-    console.log("Adding car:", carInfo);
-    console.log("Cars:", updatedCars);
-  };
-
-  const handleSelectCar = (selectedCar) => {
-    console.log("Selected car:", selectedCar);
-  };
+  const [watchlist, setWatchlist] = useState([]);
 
   return (
     <>
-      <CssBaseline />
-      {/* de header van de pagina */}
-      <Header />
-
-      {/* Hier zorgen we ervoor dat een gebruiker een auto kan toevoegen zegmaar aan zijn catalogus */}
-      <div>
-        <Grid container spacing={2} alignItems="center">
-          <Grid item>
-            <IconButton onClick={handleOpenRentCarDialog} color="primary">
-              <Add />
-            </IconButton>
-          </Grid>
-          <Grid item xs={6}></Grid> {/* Placeholder for spacing */}
-          <Grid item xs={5} container justifyContent="flex-end"></Grid>
-        </Grid>
-        <RentCarPage
-          open={openRentCarDialog}
-          onClose={handleCloseRentCarDialog}
-          onSubmit={handleAddCar}
-        />
-        {cars.length > 0 && (
-          <div style={{ marginTop: "20px" }}>
-            <CarCatalog cars={cars} onSelectCar={handleSelectCar} />
-          </div>
-        )}
-      </div>
-      {/* main gedeelte van de applicatie */}
       <main>
-        <div style={{ padding: "20px" }}>
-          <Container maxWidth="sm">
+        <div
+          style={{
+            position: "relative",
+            padding: "20px",
+            backgroundImage: `url(${autofocusBanner})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            color: "white",
+            textAlign: "center",
+            height: "400px",
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+          }}
+        >
+          <div
+            style={{
+              position: "absolute",
+              top: 0,
+              left: 0,
+              right: 0,
+              bottom: 0,
+              backgroundColor: "rgba(0, 0, 0, 0.5)",
+              zIndex: 1,
+            }}
+          ></div>
+          <Container maxWidth="sm" style={{ zIndex: 2 }}>
             <Typography
               variant="h2"
               align="center"
-              color="textPrimary"
+              color="inherit"
               gutterBottom
             >
-              Car Rental
+              AutoFocus
             </Typography>
-            <Typography variant="h6" align="center" color="textSecondary">
-              This is a longer paragraph wich is actually a Typography that is a
-              fancy word for any text related element from html, I think the
-              sentance is long enough. bla bla bla
+            <Typography variant="h6" align="center" color="inherit">
+              This is a longer paragraph which is actually a Typography that is
+              a fancy word for any text related element from HTML. I think the
+              sentence is long enough. bla bla bla
             </Typography>
+            <div className="mt-10 flex items-center justify-center gap-x-6">
+              <a
+                href="#"
+                className="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
+              >
+                Get started
+              </a>
+              <a
+                href="#"
+                className="text-sm font-semibold leading-6 text-white hover:text-blue-500"
+              >
+                Learn more <span aria-hidden="true">→</span>
+              </a>
+            </div>
           </Container>
         </div>
-        {/* container voor onze 'Cards" */}
-        <CardsContainer />
+        <div style={{ padding: "20px" }}>
+          <SearchBar />
+        </div>
+        <CardsContainer watchlist={watchlist} setWatchlist={setWatchlist} />
+        <NewsLetterSection />
+        <PricingSection />
+        <Testimonials />
       </main>
-      <Footer />
     </>
   );
 };
