@@ -19,6 +19,7 @@
     "@mui/styled-engine-sc": "^6.0.0-alpha.18",
     "@mui/styles": "^5.15.19",
     "@mui/system": "^5.15.15",
+    "inflight": "npm:lru-cache",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "styled-components": "^6.1.9"
