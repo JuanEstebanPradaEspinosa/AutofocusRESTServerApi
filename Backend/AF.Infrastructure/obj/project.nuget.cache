@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jPoLZOK8d7BNtM67WKLemrRZiF3KdydQOHTWAkxDsj7LBhqoq6gPC/ixyWCB5IZx7HDDcLeDPMLaiNUITiQTmg==",
+  "dgSpecHash": "vQ/X7c6Cz0/9pBnkbNVOAQWYA70A+x/4cFmvnM9eLNzx8DDGrqQusC2iU9GhX2h7gb+mhzcnK2x3juYByIgkZA==",
   "success": true,
-  "projectFilePath": "D:\\ProjectWerk\\AutofocusRESTServerApi -DDD\\Backend\\AF.Infrastructure\\AF.Infrastructure.csproj",
+  "projectFilePath": "D:\\ProjectWerk\\Autofocus git branches\\AutofocusRESTServerApi - luca_branch\\Backend\\AF.Infrastructure\\AF.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Juane\\.nuget\\packages\\aspnetcore.healthchecks.ui\\8.0.1\\aspnetcore.healthchecks.ui.8.0.1.nupkg.sha512",
     "C:\\Users\\Juane\\.nuget\\packages\\aspnetcore.healthchecks.ui.core\\8.0.1\\aspnetcore.healthchecks.ui.core.8.0.1.nupkg.sha512",

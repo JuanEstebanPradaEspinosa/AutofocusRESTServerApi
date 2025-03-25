@@ -45,3 +45,19 @@ D:\ProjectWerk\AutofocusRESTServerApi -DDD\Backend\AF.Application\obj\Debug\net8
 D:\ProjectWerk\AutofocusRESTServerApi -DDD\Backend\AF.Application\obj\Debug\net8.0\refint\AF.Application.dll
 D:\ProjectWerk\AutofocusRESTServerApi -DDD\Backend\AF.Application\obj\Debug\net8.0\AF.Application.pdb
 D:\ProjectWerk\AutofocusRESTServerApi -DDD\Backend\AF.Application\obj\Debug\net8.0\ref\AF.Application.dll
+D:\ProjectWerk\Autofocus git branches\AutofocusRESTServerApi - luca_branch\Backend\AF.Application\bin\Debug\net8.0\AF.Application.deps.json
+D:\ProjectWerk\Autofocus git branches\AutofocusRESTServerApi - luca_branch\Backend\AF.Application\bin\Debug\net8.0\AF.Application.dll
+D:\ProjectWerk\Autofocus git branches\AutofocusRESTServerApi - luca_branch\Backend\AF.Application\bin\Debug\net8.0\AF.Application.pdb
+D:\ProjectWerk\Autofocus git branches\AutofocusRESTServerApi - luca_branch\Backend\AF.Application\bin\Debug\net8.0\AF.Domain.dll
+D:\ProjectWerk\Autofocus git branches\AutofocusRESTServerApi - luca_branch\Backend\AF.Application\bin\Debug\net8.0\AF.Domain.pdb
+D:\ProjectWerk\Autofocus git branches\AutofocusRESTServerApi - luca_branch\Backend\AF.Application\obj\Debug\net8.0\AF.Application.csproj.AssemblyReference.cache
+D:\ProjectWerk\Autofocus git branches\AutofocusRESTServerApi - luca_branch\Backend\AF.Application\obj\Debug\net8.0\AF.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectWerk\Autofocus git branches\AutofocusRESTServerApi - luca_branch\Backend\AF.Application\obj\Debug\net8.0\AF.Application.AssemblyInfoInputs.cache
+D:\ProjectWerk\Autofocus git branches\AutofocusRESTServerApi - luca_branch\Backend\AF.Application\obj\Debug\net8.0\AF.Application.AssemblyInfo.cs
+D:\ProjectWerk\Autofocus git branches\AutofocusRESTServerApi - luca_branch\Backend\AF.Application\obj\Debug\net8.0\AF.Application.csproj.CoreCompileInputs.cache
+D:\ProjectWerk\Autofocus git branches\AutofocusRESTServerApi - luca_branch\Backend\AF.Application\obj\Debug\net8.0\AF.Application.sourcelink.json
+D:\ProjectWerk\Autofocus git branches\AutofocusRESTServerApi - luca_branch\Backend\AF.Application\obj\Debug\net8.0\AF.Appli.CB51D3EF.Up2Date
+D:\ProjectWerk\Autofocus git branches\AutofocusRESTServerApi - luca_branch\Backend\AF.Application\obj\Debug\net8.0\AF.Application.dll
+D:\ProjectWerk\Autofocus git branches\AutofocusRESTServerApi - luca_branch\Backend\AF.Application\obj\Debug\net8.0\refint\AF.Application.dll
+D:\ProjectWerk\Autofocus git branches\AutofocusRESTServerApi - luca_branch\Backend\AF.Application\obj\Debug\net8.0\AF.Application.pdb
+D:\ProjectWerk\Autofocus git branches\AutofocusRESTServerApi - luca_branch\Backend\AF.Application\obj\Debug\net8.0\ref\AF.Application.dll
